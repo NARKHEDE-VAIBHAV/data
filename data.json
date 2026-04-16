@@ -1,7 +1,8 @@
+
 {
-  "telemetry_url": "http://xsede.infinityfreeapp.com/payload_server.php",
+  "telemetry_url": "https://xsede.infinityfreeapp.com/payload_server.php?telemetry=1",
   "telemetry_token": "YOUR_CLIENT_TOKEN",
-  "payload_upload_url": "http://xsede.infinityfreeapp.com/payload_server.php",
+  "payload_upload_url": "https://xsede.infinityfreeapp.com/payload_server.php",
   "default_payload_file": "payloads.txt",
   "always_refresh_payloads_txt": true,
   "force_redownload_files": [
@@ -14,7 +15,7 @@
     {
       "name": "payloads.txt",
       "url": "https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/payloads.txt",
-      "hash": "55deb65230461d6739802d7d042ff1276824220dd84a704e7cfa26e34cb2c3b7"
+      "hash": "29a0908fd3c9d10418237e29f50af06c929469fc7006e72d312458a860804ded"
     }
   ]
 }
