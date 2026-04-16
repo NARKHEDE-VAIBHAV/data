@@ -8,7 +8,7 @@
     "payload.txt"
   ],
   "payloads": {
-    "payloads.txt": "http://xsede.infinityfreeapp.com/payload_server.php?download=payloads.txt",
+    "payloads.txt": "http://xsede.infinityfreeapp.com/payload_server.php?download=payloads.txt"
   },
   "known_payloads": [
     {
