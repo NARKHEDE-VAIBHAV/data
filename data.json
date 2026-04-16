@@ -8,13 +8,13 @@
     "payload.txt"
   ],
   "payloads": {
-    "payloads.txt": "http://xsede.infinityfreeapp.com/payload_server.php?download=payloads.txt"
+    "payloads.txt": "https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/payloads.txt"
   },
   "known_payloads": [
     {
       "name": "payloads.txt",
-      "url": "http://xsede.infinityfreeapp.com/payload_server.php?download=payloads.txt",
-      "hash": "PUT_NORMALIZED_SHA256_HERE"
+      "url": "https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/payloads.txt",
+      "hash": "55deb65230461d6739802d7d042ff1276824220dd84a704e7cfa26e34cb2c3b7"
     }
   ]
 }
