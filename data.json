@@ -1,8 +1,8 @@
 
 {
-  "telemetry_url": "http://localhost:5000/payload_server.php?telemetry=1",
+  "telemetry_url": "http://xsede.infinityfreeapp.com/payload_server.php?telemetry=1",
   "telemetry_token": "YOUR_CLIENT_TOKEN",
-  "payload_upload_url": "http://localhost:5000/payload_server.php",
+  "payload_upload_url": "http://xsede.infinityfreeapp.com/payload_server.php",
   "default_payload_file": "payloads.txt",
   "always_refresh_payloads_txt": true,
   "force_redownload_files": [
